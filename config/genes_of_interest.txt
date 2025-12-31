@@ -1,0 +1,9 @@
+# Genes of Interest for Sashimi Plots
+# Add one mouse gene symbol per line
+# Lines starting with # are comments
+#
+# Mouse gene symbol examples:
+# Trp53
+# Brca1
+# Myc
+# Gapdh
