@@ -3,7 +3,7 @@
 # Lines starting with # are comments
 #
 # Mouse gene symbol examples:
-# Trp53
-# Brca1
-# Myc
-# Gapdh
+Trp53
+Brca1
+Myc
+Gapdh

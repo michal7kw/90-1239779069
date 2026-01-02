@@ -11,6 +11,7 @@
 suppressPackageStartupMessages({
     library(DESeq2)
     library(ggplot2)
+    library(ggrepel)
     library(pheatmap)
     library(RColorBrewer)
     library(dplyr)
@@ -191,13 +192,38 @@ extract_results <- function(dds, contrast, output_dir) {
 
     # Volcano plot
     res_volcano <- as.data.frame(res)
+    res_volcano$gene_id <- rownames(res_volcano)
     res_volcano$significant <- ifelse(!is.na(res_volcano$padj) & res_volcano$padj < 0.05,
                                        ifelse(res_volcano$log2FoldChange > 0, "Up", "Down"),
                                        "NS")
 
+    # Identify genes to label: top by significance and top by fold change
+    sig_genes <- res_volcano[!is.na(res_volcano$padj) & res_volcano$padj < 0.05, ]
+
+    # Top 10 most significant genes
+    top_sig <- sig_genes[order(sig_genes$padj), ]
+    top_sig <- head(top_sig, 10)
+
+    # Top 10 by absolute log2FC (among significant)
+    top_fc <- sig_genes[order(abs(sig_genes$log2FoldChange), decreasing = TRUE), ]
+    top_fc <- head(top_fc, 10)
+
+    # Combine and remove duplicates
+    genes_to_label <- unique(c(rownames(top_sig), rownames(top_fc)))
+    res_volcano$label <- ifelse(rownames(res_volcano) %in% genes_to_label,
+                                 res_volcano$gene_id, "")
+
     volcano_plot <- ggplot(res_volcano, aes(x = log2FoldChange, y = -log10(pvalue),
                                              color = significant)) +
         geom_point(alpha = 0.5, size = 1) +
+        geom_text_repel(aes(label = label),
+                        size = 2.5,
+                        max.overlaps = 20,
+                        box.padding = 0.3,
+                        point.padding = 0.2,
+                        segment.color = "grey50",
+                        segment.size = 0.2,
+                        show.legend = FALSE) +
         scale_color_manual(values = c("Up" = "red", "Down" = "blue", "NS" = "grey")) +
         theme_bw() +
         geom_hline(yintercept = -log10(0.05), linetype = "dashed", color = "grey40") +
@@ -208,9 +234,9 @@ extract_results <- function(dds, contrast, output_dir) {
         theme(legend.position = "right")
 
     ggsave(file.path(output_dir, paste0(comparison_name, "_volcano.pdf")),
-           volcano_plot, width = 8, height = 6)
+           volcano_plot, width = 10, height = 8)
     ggsave(file.path(output_dir, paste0(comparison_name, "_volcano.png")),
-           volcano_plot, width = 8, height = 6, dpi = 300)
+           volcano_plot, width = 10, height = 8, dpi = 300)
 
     return(res)
 }

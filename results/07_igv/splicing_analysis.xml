@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="mm39" hasGeneTrack="true" hasSequenceTrack="true" locus="All" version="8">
+    <Resources>
+        <!-- BigWig Coverage Tracks (CPM normalized from 03_bigwig) -->
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Parental_1_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Parental_2_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Parental_3_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Neg_1_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Neg_2_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Neg_3_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Pos_1_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Pos_2_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/Pos_3_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/KO_1_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/KO_2_CPM.bw"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/03_bigwig/KO_3_CPM.bw"/>
+
+        <!-- BAM files (for Sashimi plots - right-click > Sashimi Plot) -->
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/1/1_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/2/2_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/3/3_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/4/4_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/5/5_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/6/6_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/7/7_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/8/8_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/9/9_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/13/13_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/14/14_Aligned.sortedByCoord.out.bam"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/15/15_Aligned.sortedByCoord.out.bam"/>
+
+        <!-- Splicing event BED files (color-coded by event type) -->
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/07_igv/bed/Neg_vs_Parental_significant_splicing.bed"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/07_igv/bed/Pos_vs_Parental_significant_splicing.bed"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/07_igv/bed/KO_vs_Parental_significant_splicing.bed"/>
+        <Resource path="/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/07_igv/bed/top_regions.bed"/>
+    </Resources>
+    <Panel name="DataPanel" height="600">
+        <!-- Coverage tracks will be loaded here -->
+    </Panel>
+    <Panel name="FeaturePanel" height="200">
+        <!-- BED tracks will be loaded here -->
+    </Panel>
+    <PanelLayout dividerFractions="0.75"/>
+</Session>

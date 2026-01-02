@@ -1,0 +1,1 @@
+/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/13/13_Aligned.sortedByCoord.out.bam,/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/14/14_Aligned.sortedByCoord.out.bam,/beegfs/scratch/ric.sessa/kubacki.michal/Azenta_projects/90-1239779069/results/02_aligned/15/15_Aligned.sortedByCoord.out.bam
