@@ -89,6 +89,27 @@ colnames(count_matrix) <- sample_info$sample_name
 cat("Count matrix dimensions:", nrow(count_matrix), "genes x",
     ncol(count_matrix), "samples\n\n")
 
+# Create gene ID to symbol mapping
+cat("Mapping Ensembl IDs to gene symbols...\n")
+# Remove version numbers from Ensembl IDs if present
+gene_ids_clean <- gsub("\\..*", "", gene_names)
+gene_symbols <- mapIds(org.Mm.eg.db,
+                       keys = gene_ids_clean,
+                       column = "SYMBOL",
+                       keytype = "ENSEMBL",
+                       multiVals = "first")
+# Create mapping dataframe
+gene_mapping <- data.frame(
+    gene_id = gene_names,
+    gene_symbol = gene_symbols,
+    stringsAsFactors = FALSE
+)
+# Use gene ID if symbol not found
+gene_mapping$gene_symbol[is.na(gene_mapping$gene_symbol)] <-
+    gene_mapping$gene_id[is.na(gene_mapping$gene_symbol)]
+rownames(gene_mapping) <- gene_mapping$gene_id
+cat("Gene symbols mapped:", sum(!is.na(gene_symbols)), "of", length(gene_names), "\n\n")
+
 # Filter low-count genes (at least 10 counts in at least 3 samples)
 keep <- rowSums(count_matrix >= 10) >= 3
 count_matrix_filtered <- count_matrix[keep, ]
@@ -195,6 +216,8 @@ extract_results <- function(dds, contrast, output_dir) {
     # Volcano plot
     res_volcano <- as.data.frame(res)
     res_volcano$gene_id <- rownames(res_volcano)
+    # Add gene symbols from mapping
+    res_volcano$gene_symbol <- gene_mapping[res_volcano$gene_id, "gene_symbol"]
     res_volcano$significant <- ifelse(!is.na(res_volcano$padj) & res_volcano$padj < 0.05,
                                        ifelse(res_volcano$log2FoldChange > 0, "Up", "Down"),
                                        "NS")
@@ -213,7 +236,7 @@ extract_results <- function(dds, contrast, output_dir) {
     # Combine and remove duplicates
     genes_to_label <- unique(c(rownames(top_sig), rownames(top_fc)))
     res_volcano$label <- ifelse(rownames(res_volcano) %in% genes_to_label,
-                                 res_volcano$gene_id, "")
+                                 res_volcano$gene_symbol, "")
 
     volcano_plot <- ggplot(res_volcano, aes(x = log2FoldChange, y = -log10(pvalue),
                                              color = significant)) +
