@@ -16,6 +16,8 @@ suppressPackageStartupMessages({
     library(RColorBrewer)
     library(dplyr)
     library(tidyr)
+    library(org.Mm.eg.db)
+    library(AnnotationDbi)
 })
 
 # Configuration
