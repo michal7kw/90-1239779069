@@ -1,0 +1,26 @@
+============================================
+14c: Neg-Exclusive Microexon Gene Composition
+Job ID: 8245582
+Requires: 14b output
+Start time: Wed Feb 11 10:54:49 AM CET 2026
+============================================
+========================================
+14c: Neg-Exclusive Microexon Gene Composition
+========================================
+  Loaded 81 neg-exclusive microexon gene IDs from 14b
+  Loaded 1269 Neg events for these genes
+
+  Loading Pos_vs_Parental events for neg-exclusive genes...
+Error in `filter()`:
+! Can't transform a data frame with duplicate names.
+Backtrace:
+    ▆
+ 1. ├─df %>% filter(GeneID %in% neg_excl_genes)
+ 2. ├─dplyr::filter(., GeneID %in% neg_excl_genes)
+ 3. └─dplyr:::filter.data.frame(., GeneID %in% neg_excl_genes)
+ 4.   └─dplyr:::filter_rows(.data, dots, by)
+ 5.     └─DataMask$new(data, by, "filter", error_call = error_call)
+ 6.       └─dplyr (local) initialize(...)
+ 7.         └─rlang::abort(...)
+Execution halted
+ERROR: 14c failed!

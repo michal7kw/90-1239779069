@@ -1,0 +1,182 @@
+Using samtools: /beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/bigwig/bin/samtools
+Using bedtools: /beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/bigwig/bin/bedtools
+Using bigWigToBedGraph: /beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/bigwig/bin/bigWigToBedGraph
+Using bedGraphToBigWig: /beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/bigwig/bin/bedGraphToBigWig
+==============================================
+Starting IGV Subset Creation
+Date: Wed Feb  4 02:57:35 PM CET 2026
+==============================================
+
+Step 0: Generating chromosome sizes file...
+Created /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/mm39.chrom.sizes with 61 chromosomes
+
+Step 1: Creating merged regions files...
+BigWig regions: 2247 merged regions (±50kb)
+BAM regions: 3594 merged regions (±5kb)
+
+Step 2: Creating subset BigWig files...
+Using bigWigToBedGraph: /beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/bigwig/bin/bigWigToBedGraph
+Using bedGraphToBigWig: /beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/bigwig/bin/bedGraphToBigWig
+  Processing KO_1...
+  Processing KO_2...
+  Processing KO_3...
+  Processing Neg_1...
+  Processing Neg_2...
+  Processing Neg_3...
+  Processing Parental_1...
+  Processing Parental_2...
+  Processing Parental_3...
+  Processing Pos_1...
+  Processing Pos_2...
+  Processing Pos_3...
+BigWig files created:
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/KO_1_subset.bw: 35M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/KO_2_subset.bw: 35M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/KO_3_subset.bw: 37M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Neg_1_subset.bw: 33M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Neg_2_subset.bw: 32M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Neg_3_subset.bw: 34M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Parental_1_subset.bw: 33M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Parental_2_subset.bw: 33M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Parental_3_subset.bw: 34M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Pos_1_subset.bw: 32M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Pos_2_subset.bw: 33M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig/Pos_3_subset.bw: 34M
+
+Step 3: Creating subset BAM files...
+  Processing Pos_3 (sample 9)...
+  Processing Pos_2 (sample 8)...
+  Processing Pos_1 (sample 7)...
+  Processing Neg_3 (sample 6)...
+  Processing Neg_2 (sample 5)...
+  Processing Neg_1 (sample 4)...
+  Processing Parental_3 (sample 3)...
+  Processing Parental_2 (sample 2)...
+  Processing Parental_1 (sample 1)...
+  Processing KO_1 (sample 13)...
+  Processing KO_2 (sample 14)...
+  Processing KO_3 (sample 15)...
+
+BAM files created:
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/KO_1_subset.bam: 754M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/KO_2_subset.bam: 769M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/KO_3_subset.bam: 778M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Neg_1_subset.bam: 784M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Neg_2_subset.bam: 908M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Neg_3_subset.bam: 749M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Parental_1_subset.bam: 779M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Parental_2_subset.bam: 753M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Parental_3_subset.bam: 854M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Pos_1_subset.bam: 739M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Pos_2_subset.bam: 862M
+  /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam/Pos_3_subset.bam: 885M
+
+Step 4: Creating IGV session file...
+IGV session created: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/splicing_subset_session.xml
+
+Step 5: Copying BED files...
+BED files copied: 37 files
+
+Step 6: Creating download package...
+bigwig/KO_1_subset.bw
+bigwig/KO_2_subset.bw
+bigwig/KO_3_subset.bw
+bigwig/Neg_1_subset.bw
+bigwig/Neg_2_subset.bw
+bigwig/Neg_3_subset.bw
+bigwig/Parental_1_subset.bw
+bigwig/Parental_2_subset.bw
+bigwig/Parental_3_subset.bw
+bigwig/Pos_1_subset.bw
+bigwig/Pos_2_subset.bw
+bigwig/Pos_3_subset.bw
+bam/KO_1_subset.bam
+bam/KO_2_subset.bam
+bam/KO_3_subset.bam
+bam/Neg_1_subset.bam
+bam/Neg_2_subset.bam
+bam/Neg_3_subset.bam
+bam/Parental_1_subset.bam
+bam/Parental_2_subset.bam
+bam/Parental_3_subset.bam
+bam/Pos_1_subset.bam
+bam/Pos_2_subset.bam
+bam/Pos_3_subset.bam
+bam/KO_1_subset.bam.bai
+bam/KO_2_subset.bam.bai
+bam/KO_3_subset.bam.bai
+bam/Neg_1_subset.bam.bai
+bam/Neg_2_subset.bam.bai
+bam/Neg_3_subset.bam.bai
+bam/Parental_1_subset.bam.bai
+bam/Parental_2_subset.bam.bai
+bam/Parental_3_subset.bam.bai
+bam/Pos_1_subset.bam.bai
+bam/Pos_2_subset.bam.bai
+bam/Pos_3_subset.bam.bai
+bed/KO_vs_Neg_A3SS.bed
+bed/KO_vs_Neg_A5SS.bed
+bed/KO_vs_Neg_MXE.bed
+bed/KO_vs_Neg_RI.bed
+bed/KO_vs_Neg_SE.bed
+bed/KO_vs_Neg_significant_splicing.bed
+bed/KO_vs_Parental_A3SS.bed
+bed/KO_vs_Parental_A5SS.bed
+bed/KO_vs_Parental_MXE.bed
+bed/KO_vs_Parental_RI.bed
+bed/KO_vs_Parental_SE.bed
+bed/KO_vs_Parental_significant_splicing.bed
+bed/KO_vs_Pos_A3SS.bed
+bed/KO_vs_Pos_A5SS.bed
+bed/KO_vs_Pos_MXE.bed
+bed/KO_vs_Pos_RI.bed
+bed/KO_vs_Pos_SE.bed
+bed/KO_vs_Pos_significant_splicing.bed
+bed/Neg_vs_Parental_A3SS.bed
+bed/Neg_vs_Parental_A5SS.bed
+bed/Neg_vs_Parental_MXE.bed
+bed/Neg_vs_Parental_RI.bed
+bed/Neg_vs_Parental_SE.bed
+bed/Neg_vs_Parental_significant_splicing.bed
+bed/Pos_vs_Neg_A3SS.bed
+bed/Pos_vs_Neg_A5SS.bed
+bed/Pos_vs_Neg_MXE.bed
+bed/Pos_vs_Neg_RI.bed
+bed/Pos_vs_Neg_SE.bed
+bed/Pos_vs_Neg_significant_splicing.bed
+bed/Pos_vs_Parental_A3SS.bed
+bed/Pos_vs_Parental_A5SS.bed
+bed/Pos_vs_Parental_MXE.bed
+bed/Pos_vs_Parental_RI.bed
+bed/Pos_vs_Parental_SE.bed
+bed/Pos_vs_Parental_significant_splicing.bed
+bed/top_regions.bed
+splicing_subset_session.xml
+top_splicing_regions.txt
+mm39.chrom.sizes
+
+==============================================
+COMPLETE!
+==============================================
+
+Output directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset
+
+Files created:
+9.5G	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bam
+1.5M	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bed
+401M	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/bigwig
+9.8G	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/igv_subset_package.tar.gz
+1.0K	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/mm39.chrom.sizes
+3.5K	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/README.md
+138K	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/regions
+2.5K	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/splicing_subset_session.xml
+3.0K	/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/top_splicing_regions.txt
+
+Download package:
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 9.8G Feb  4 15:20 /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/igv_subset_package.tar.gz
+
+To download:
+  scp user@server:/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/igv_subset_package.tar.gz .
+
+After extraction, open splicing_subset_session.xml in IGV (with mm39 genome).
+==============================================

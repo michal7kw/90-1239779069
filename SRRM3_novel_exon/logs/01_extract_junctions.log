@@ -1,0 +1,69 @@
+=== Junction extraction started: Wed Jan 21 04:58:33 PM CET 2026 ===
+Target region: chr5:135897000-135903000
+Novel exon: chr5:135898574-135898652
+
+Processing sample 1 (Parental)...
+  Inc1 (upstream->novel): 153
+  Inc2 (novel->downstream): 170
+  Skip (upstream->downstream): 137
+  Novel exon coverage: 612
+Processing sample 2 (Parental)...
+  Inc1 (upstream->novel): 265
+  Inc2 (novel->downstream): 219
+  Skip (upstream->downstream): 168
+  Novel exon coverage: 819
+Processing sample 3 (Parental)...
+  Inc1 (upstream->novel): 200
+  Inc2 (novel->downstream): 158
+  Skip (upstream->downstream): 130
+  Novel exon coverage: 739
+Processing sample 4 (Neg)...
+  Inc1 (upstream->novel): 145
+  Inc2 (novel->downstream): 115
+  Skip (upstream->downstream): 185
+  Novel exon coverage: 550
+Processing sample 5 (Neg)...
+  Inc1 (upstream->novel): 181
+  Inc2 (novel->downstream): 129
+  Skip (upstream->downstream): 250
+  Novel exon coverage: 716
+Processing sample 6 (Neg)...
+  Inc1 (upstream->novel): 129
+  Inc2 (novel->downstream): 121
+  Skip (upstream->downstream): 181
+  Novel exon coverage: 609
+Processing sample 7 (Pos)...
+  Inc1 (upstream->novel): 111
+  Inc2 (novel->downstream): 104
+  Skip (upstream->downstream): 216
+  Novel exon coverage: 536
+Processing sample 8 (Pos)...
+  Inc1 (upstream->novel): 107
+  Inc2 (novel->downstream): 87
+  Skip (upstream->downstream): 294
+  Novel exon coverage: 642
+Processing sample 9 (Pos)...
+  Inc1 (upstream->novel): 102
+  Inc2 (novel->downstream): 105
+  Skip (upstream->downstream): 331
+  Novel exon coverage: 670
+Processing sample 13 (KO)...
+  Inc1 (upstream->novel): 10
+  Inc2 (novel->downstream): 0
+  Skip (upstream->downstream): 164
+  Novel exon coverage: 263
+Processing sample 14 (KO)...
+  Inc1 (upstream->novel): 19
+  Inc2 (novel->downstream): 0
+  Skip (upstream->downstream): 140
+  Novel exon coverage: 256
+Processing sample 15 (KO)...
+  Inc1 (upstream->novel): 17
+  Inc2 (novel->downstream): 0
+  Skip (upstream->downstream): 155
+  Novel exon coverage: 263
+
+=== Junction extraction completed: Wed Jan 21 04:58:39 PM CET 2026 ===
+Output files:
+  - /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/SRRM3_novel_exon/results/junction_counts_summary.csv
+  - /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/SRRM3_novel_exon/results/sample_*_junctions.txt

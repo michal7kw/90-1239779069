@@ -1,0 +1,158 @@
+============================================
+Microexon Comparative Analysis
+Start time: 2026-01-21 17:15:57 
+============================================
+
+
+=== Step 1: Loading SE Data ===
+Loading Neg_vs_Parental...
+Loading Pos_vs_Parental...
+Loading KO_vs_Parental...
+
+=== Step 2: Building Comparison Matrix ===
+Building dPSI comparison matrix...
+  Total unique events: 210041
+
+=== Step 3: Classifying Direction Patterns ===
+Classifying direction patterns...
+
+Top direction patterns:
+# A tibble: 10 × 5
+   pattern     count n_microexons n_small n_regular
+   <chr>       <int>        <int>   <int>     <int>
+ 1 Exc/Exc/Exc  5249          105     235      4909
+ 2 Inc/Inc/Inc  3846          145     440      3261
+ 3 Inc/Inc/Exc  2050          111     182      1757
+ 4 Inc/Exc/Exc  1855          206     130      1519
+ 5 Exc/Exc/Inc  1752           33     127      1592
+ 6 Exc/Inc/Inc  1523           38     180      1305
+ 7 Exc/Inc/Exc  1414           29      70      1315
+ 8 Inc/Exc/Inc  1238           77     132      1029
+ 9 Exc/Exc/NS     23            1       0        22
+10 NS/Exc/Exc     18            0       0        18
+
+=== Step 4: Finding Common/Unique Events ===
+Finding common microexon events...
+  Neg_vs_Parental: 963 significant events
+  Pos_vs_Parental: 1451 significant events
+  KO_vs_Parental: 952 significant events
+
+  Common to all: 183
+  Common Neg & KO: 271
+  Common Neg & Pos: 444
+  Common Pos & KO: 454
+Finding common microexon events...
+  Neg_vs_Parental: 104 significant events
+  Pos_vs_Parental: 93 significant events
+  KO_vs_Parental: 67 significant events
+
+  Common to all: 10
+  Common Neg & KO: 25
+  Common Neg & Pos: 24
+  Common Pos & KO: 28
+Finding comparison-specific microexon events...
+  Unique to Neg_vs_Parental: 431
+  Unique to Pos_vs_Parental: 736
+  Unique to KO_vs_Parental: 410
+Finding comparison-specific microexon events...
+  Unique to Neg_vs_Parental: 65
+  Unique to Pos_vs_Parental: 51
+  Unique to KO_vs_Parental: 24
+
+=== Step 5: Analyzing Concordance ===
+Analyzing directional concordance...
+
+  Neg_vs_Parental vs KO_vs_Parental:
+    Common significant: 899
+    Same direction: 738 (82.1%)
+    Opposite direction: 161 (17.9%)
+
+  Neg_vs_Parental vs Pos_vs_Parental:
+    Common significant: 1725
+    Same direction: 1608 (93.2%)
+    Opposite direction: 117 (6.8%)
+
+  KO_vs_Parental vs Pos_vs_Parental:
+    Common significant: 1552
+    Same direction: 1390 (89.6%)
+    Opposite direction: 162 (10.4%)
+
+=== Step 6: Generating Plots ===
+Generating UpSet plot...
+null device 
+          1 
+Warning messages:
+1: `aes_string()` was deprecated in ggplot2 3.0.0.
+ℹ Please use tidy evaluation idioms with `aes()`.
+ℹ See also `vignette("ggplot2-in-packages")` for more information.
+ℹ The deprecated feature was likely used in the UpSetR package.
+  Please report the issue to the authors. 
+2: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.
+ℹ The deprecated feature was likely used in the UpSetR package.
+  Please report the issue to the authors. 
+3: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead.
+ℹ The deprecated feature was likely used in the UpSetR package.
+  Please report the issue to the authors. 
+Generating UpSet plot...
+null device 
+          1 
+Generating direction flow plot...
+  (ggalluvial not available, using alternative visualization)
+Generating dPSI heatmap...
+null device 
+          1 
+Generating Venn diagram...
+null device 
+          1 
+Generating comparison summary plot...
+
+============================================
+Comparative Analysis Summary
+============================================
+
+Significant events per comparison:
+
+Neg_vs_Parental:
+  Total significant: 1034
+  Microexons: 110
+  Inclusion: 596 (57.6%)
+  Exclusion: 438 (42.4%)
+
+Pos_vs_Parental:
+  Total significant: 1566
+  Microexons: 98
+  Inclusion: 586 (37.4%)
+  Exclusion: 980 (62.6%)
+
+KO_vs_Parental:
+  Total significant: 1008
+  Microexons: 69
+  Inclusion: 375 (37.2%)
+  Exclusion: 633 (62.8%)
+
+Common events:
+  All three comparisons: 183
+  Neg & KO (both loss-of-function): 271
+
+Concordance (Neg vs KO - both loss-of-function):
+  Same direction: 738 (82.1%)
+
+============================================
+Comparative Analysis Complete!
+============================================
+Output directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/09_microexon_extended/comparative_analysis 
+
+Generated outputs:
+  - dPSI_comparison_matrix.csv: Wide-format dPSI across comparisons
+  - common_microexons_all.csv: Events significant in all comparisons
+  - unique_*.csv: Comparison-specific events
+  - directionality_patterns.csv: Direction pattern counts
+  - concordance_analysis.csv: Pairwise concordance
+  - upset_plot_*.pdf: UpSet diagrams
+  - direction_*.pdf: Direction flow visualization
+  - microexon_venn.pdf: Venn diagram
+
+End time: 2026-01-21 17:16:12 
+============================================

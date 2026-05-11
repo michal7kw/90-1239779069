@@ -1,0 +1,97 @@
+============================================
+Microexon Functional Annotation
+Start time: 2026-01-21 17:14:55 
+GTF file: /beegfs/scratch/ric.sessa/kubacki.michal/COMMONS/refdata-gex-GRCm39-2024-A/genes/genes.gtf 
+============================================
+
+
+=== Step 1: Loading GTF Annotations ===
+Loading GTF annotations...
+  Loaded 33696 genes
+  Loaded 125556 transcripts
+  Loaded 834423 exons
+  Loaded 525036 CDS features
+  Loaded 0 5'UTR features
+  Loaded 0 3'UTR features
+
+=== Step 2: Loading SE Events ===
+Loading Neg_vs_Parental...
+Loading Pos_vs_Parental...
+Loading KO_vs_Parental...
+Total SE events loaded: 165346
+
+=== Step 3: Annotating Genomic Positions ===
+Annotating exon genomic positions...
+  Position annotation summary:
+
+    CDS Unknown     UTR 
+ 147825    7583    9938 
+Annotating gene biotypes...
+  Gene biotype summary:
+
+        lncRNA protein_coding 
+          4348         160998 
+Warning messages:
+1: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrJH584304.1
+  - in 'y': chrY, chrM, GL456210.1, GL456211.1, GL456212.1, GL456219.1, GL456221.1, GL456354.1, JH584295.1, JH584296.1, JH584297.1, JH584298.1, JH584299.1, JH584303.1, JH584304.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+2: In .merge_two_Seqinfo_objects(x, y) :
+  Each of the 2 combined objects has sequence levels not in the other:
+  - in 'x': chrJH584304.1
+  - in 'y': chrY, chrM, GL456210.1, GL456211.1, GL456212.1, GL456219.1, GL456221.1, GL456354.1, JH584295.1, JH584296.1, JH584297.1, JH584298.1, JH584299.1, JH584303.1, JH584304.1
+  Make sure to always combine/compare objects based on the same reference
+  genome (use suppressWarnings() to suppress this warning).
+
+=== Step 4: Generating Plots ===
+Generating position distribution plots...
+  Skipping relative position plot (column not found)
+Generating biotype distribution plots...
+
+=== Step 5: Generating Summaries ===
+Generating summary statistics...
+
+=== Step 6: Enrichment Tests ===
+Testing position enrichment...
+
+============================================
+Functional Annotation Summary
+============================================
+
+Neg_vs_Parental:
+  Total significant SE: 1034
+  Microexon positions:
+    CDS: 106
+    UTR: 3
+    Unknown: 1
+
+Pos_vs_Parental:
+  Total significant SE: 1566
+  Microexon positions:
+    CDS: 94
+    UTR: 2
+    Unknown: 2
+
+KO_vs_Parental:
+  Total significant SE: 1008
+  Microexon positions:
+    CDS: 60
+    UTR: 4
+    Unknown: 5
+
+============================================
+Functional Annotation Complete!
+============================================
+Output directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/09_microexon_extended/functional_annotation 
+
+Generated outputs:
+  - microexon_genomic_annotation.csv: Full annotation table
+  - position_summary_stats.csv: Position statistics
+  - biotype_summary_stats.csv: Gene biotype statistics
+  - position_distribution_*.pdf: Position plots
+  - biotype_distribution_*.pdf: Biotype plots
+
+End time: 2026-01-21 17:15:28 
+============================================

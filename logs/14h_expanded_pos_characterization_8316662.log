@@ -1,0 +1,212 @@
+============================================
+14h: Expanded Pos Characterization (3 Groups)
+Job ID: 8316662
+Start time: Mon Feb 16 09:21:35 AM CET 2026
+============================================
+All input files found. Running analysis...
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+========================================================
+14h: Expanded Pos Characterization (3 Groups)
+========================================================
+
+
+=== Processing: group1_neg_microexon (Microexon SE (0-30bp)) ===
+  Pos events loaded: 1535
+  Neg events loaded: 1528
+  Genes in summary:  99
+  Selection events:  110
+  Pos significant events: 81 (in 47 genes)
+  Neg significant events: 160 (in 99 genes)
+  Genes WITH significant Pos events:    47 (47.5%)
+  Genes WITHOUT significant Pos events: 52 (52.5%)
+  Generating plots...
+  Saved 6 PDFs
+  Saved 3 CSVs
+
+  --- Microexon SE (0-30bp) SUMMARY ---
+  47 / 99 genes (47%) have significant Pos events
+  Event type breakdown (Neg / Pos sig events):
+    SE   : 139 /  55
+    A5SS :   5 /   6
+    A3SS :   5 /   8
+    MXE  :   8 /   6
+    RI   :   3 /   6
+  Size breakdown - SE events only (Neg / Pos):
+    Microexon (0-30bp)  : 110 /  32
+    Small (30-50bp)     :   6 /   4
+    Regular (>50bp)     :  23 /  19
+  Direction (Neg / Pos):
+    Inclusion:  126 /  32
+    Exclusion:   34 /  49
+  Top genes by # significant Pos events:
+    Sorbs1    : 4 Pos sig, 7 Neg sig (Pos types: A3SS,SE)
+    Plch2     : 4 Pos sig, 2 Neg sig (Pos types: A5SS,RI)
+    Adgrl2    : 3 Pos sig, 4 Neg sig (Pos types: A3SS,SE)
+    Ank3      : 3 Pos sig, 5 Neg sig (Pos types: A3SS,SE)
+    Arhgef40  : 3 Pos sig, 2 Neg sig (Pos types: A3SS,SE)
+    Inpp4a    : 3 Pos sig, 3 Neg sig (Pos types: A5SS,SE)
+    Sh3glb2   : 3 Pos sig, 1 Neg sig (Pos types: RI,SE)
+    Ddhd1     : 3 Pos sig, 3 Neg sig (Pos types: MXE,SE)
+    Strada    : 3 Pos sig, 3 Neg sig (Pos types: MXE,SE)
+    Kcnc3     : 2 Pos sig, 2 Neg sig (Pos types: SE)
+  Output: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task5_expanded_groups/group1_neg_microexon/pos_significant_deep
+
+
+=== Processing: group2_neg_micro_small (Microexon + Small SE (0-50bp)) ===
+  Pos events loaded: 3024
+  Neg events loaded: 2984
+  Genes in summary:  195
+  Selection events:  229
+  Pos significant events: 198 (in 105 genes)
+  Neg significant events: 310 (in 195 genes)
+  Genes WITH significant Pos events:    105 (53.8%)
+  Genes WITHOUT significant Pos events: 90 (46.2%)
+  Generating plots...
+  Saved 6 PDFs
+  Saved 3 CSVs
+
+  --- Microexon + Small SE (0-50bp) SUMMARY ---
+  105 / 195 genes (54%) have significant Pos events
+  Event type breakdown (Neg / Pos sig events):
+    SE   : 271 / 147
+    A5SS :   8 /  10
+    A3SS :   5 /  10
+    MXE  :  19 /  21
+    RI   :   7 /  10
+  Size breakdown - SE events only (Neg / Pos):
+    Microexon (0-30bp)  : 110 /  35
+    Small (30-50bp)     : 119 /  58
+    Regular (>50bp)     :  42 /  54
+  Direction (Neg / Pos):
+    Inclusion:  226 /  91
+    Exclusion:   84 / 107
+  Top genes by # significant Pos events:
+    Tafazzin  : 12 Pos sig, 9 Neg sig (Pos types: A5SS,MXE,RI,SE)
+    Fam204a   : 6 Pos sig, 6 Neg sig (Pos types: MXE,SE)
+    Rian      : 6 Pos sig, 3 Neg sig (Pos types: A3SS,A5SS,MXE,RI,SE)
+    Cdan1     : 5 Pos sig, 1 Neg sig (Pos types: A5SS,MXE,SE)
+    Sorbs1    : 4 Pos sig, 7 Neg sig (Pos types: A3SS,SE)
+    Plch2     : 4 Pos sig, 2 Neg sig (Pos types: A5SS,RI)
+    Synj1     : 3 Pos sig, 3 Neg sig (Pos types: MXE,SE)
+    Brsk2     : 3 Pos sig, 4 Neg sig (Pos types: SE)
+    Ank3      : 3 Pos sig, 5 Neg sig (Pos types: A3SS,SE)
+    Btrc      : 3 Pos sig, 2 Neg sig (Pos types: SE)
+  Output: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task5_expanded_groups/group2_neg_micro_small/pos_significant_deep
+
+
+=== Processing: group3_neg_all_sizes (All SE Sizes) ===
+  Pos events loaded: 10809
+  Neg events loaded: 10648
+  Genes in summary:  778
+  Selection events:  1034
+  Pos significant events: 921 (in 483 genes)
+  Neg significant events: 1191 (in 787 genes)
+  Genes WITH significant Pos events:    483 (62.1%)
+  Genes WITHOUT significant Pos events: 295 (37.9%)
+  Generating plots...
+  Saved 6 PDFs
+  Saved 3 CSVs
+
+  --- All SE Sizes SUMMARY ---
+  483 / 778 genes (62%) have significant Pos events
+  Event type breakdown (Neg / Pos sig events):
+    SE   : 1034 / 733
+    A5SS :  23 /  29
+    A3SS :  25 /  39
+    MXE  :  69 /  76
+    RI   :  40 /  44
+  Size breakdown - SE events only (Neg / Pos):
+    Microexon (0-30bp)  : 110 /  47
+    Small (30-50bp)     : 119 /  69
+    Regular (>50bp)     : 805 / 617
+  Direction (Neg / Pos):
+    Inclusion:  651 / 390
+    Exclusion:  540 / 531
+  Top genes by # significant Pos events:
+    2210408F21Rik: 17 Pos sig, 5 Neg sig (Pos types: A3SS,A5SS,MXE,RI,SE)
+    Ppp4r1l-ps: 13 Pos sig, 13 Neg sig (Pos types: A3SS,MXE,SE)
+    Tafazzin  : 12 Pos sig, 9 Neg sig (Pos types: A5SS,MXE,RI,SE)
+    Gm12610   : 12 Pos sig, 5 Neg sig (Pos types: SE)
+    Plekha6   : 9 Pos sig, 9 Neg sig (Pos types: MXE,SE)
+    Mapt      : 8 Pos sig, 7 Neg sig (Pos types: A3SS,MXE,SE)
+    2410002F23Rik: 7 Pos sig, 8 Neg sig (Pos types: MXE,RI,SE)
+    Pvt1      : 7 Pos sig, 7 Neg sig (Pos types: MXE,SE)
+    Nudt13    : 7 Pos sig, 2 Neg sig (Pos types: RI,SE)
+    Fam204a   : 6 Pos sig, 6 Neg sig (Pos types: MXE,SE)
+  Output: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task5_expanded_groups/group3_neg_all_sizes/pos_significant_deep
+
+
+========================================================
+  CROSS-GROUP COMPARISON
+========================================================
+
+  Group                            Genes   Neg Sig   Pos Sig    w/ Pos  % w/ Pos
+------------------------------------------------------------------------------------------ 
+  Microexon SE (0-30bp)               99       160        81        47   47.5%
+  Microexon + Small SE (0-50bp)      195       310       198       105   53.8%
+  All SE Sizes                       778      1191       921       483   62.1%
+
+14h complete.
+
+=== 14h completed successfully ===
+
+Output: results/14_todo_analysis/task5_expanded_groups/group1_neg_microexon/pos_significant_deep/
+total 60
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal     9 Feb 16 09:21 .
+drwxrwxr-x 3 kubacki.michal lg_kubacki.michal     7 Feb 16 09:21 ..
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  6314 Feb 16 09:21 combined_panel.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  4824 Feb 16 09:21 direction_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  4951 Feb 16 09:21 event_type_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  4769 Feb 16 09:21 gene_classification_bar.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  9504 Feb 16 09:21 gene_event_heatmap.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  8389 Feb 16 09:21 gene_splicing_profile_comparison.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 13349 Feb 16 09:21 pos_significant_events_detail.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  5010 Feb 16 09:21 size_category_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   689 Feb 16 09:21 summary_statistics.csv
+
+Output: results/14_todo_analysis/task5_expanded_groups/group2_neg_micro_small/pos_significant_deep/
+total 86
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal     9 Feb 16 09:21 .
+drwxrwxr-x 3 kubacki.michal lg_kubacki.michal     7 Feb 16 09:21 ..
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  6281 Feb 16 09:21 combined_panel.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  4900 Feb 16 09:21 direction_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  4962 Feb 16 09:21 event_type_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  4742 Feb 16 09:21 gene_classification_bar.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  9921 Feb 16 09:21 gene_event_heatmap.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 16344 Feb 16 09:21 gene_splicing_profile_comparison.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 31986 Feb 16 09:21 pos_significant_events_detail.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  4946 Feb 16 09:21 size_category_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   712 Feb 16 09:21 summary_statistics.csv
+
+Output: results/14_todo_analysis/task5_expanded_groups/group3_neg_all_sizes/pos_significant_deep/
+total 248
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal      6 Feb 16 09:21 .
+drwxrwxr-x 3 kubacki.michal lg_kubacki.michal      7 Feb 16 09:21 ..
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   6246 Feb 16 09:21 combined_panel.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   4834 Feb 16 09:21 direction_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   4972 Feb 16 09:21 event_type_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   4703 Feb 16 09:21 gene_classification_bar.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  10171 Feb 16 09:21 gene_event_heatmap.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  65142 Feb 16 09:21 gene_splicing_profile_comparison.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 148298 Feb 16 09:21 pos_significant_events_detail.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   4970 Feb 16 09:21 size_category_comparison.pdf
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal    703 Feb 16 09:21 summary_statistics.csv
+End time: Mon Feb 16 09:21:52 AM CET 2026

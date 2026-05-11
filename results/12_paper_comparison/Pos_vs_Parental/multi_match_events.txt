@@ -1,0 +1,32 @@
+Multi-Match Event Report: Pos_vs_Parental
+Generated: 2026-02-05 12:30:31.614555
+================================================================================
+
+Paper events with multiple rMATS candidates: 4
+Total rMATS candidate entries: 13
+Selection criterion: prefer significant (FDR < 0.05), then strongest |dPSI|
+
+--------------------------------------------------------------------------------
+
+Paper event: Ank2.E1  |  Gene: Ank2  |  Match type: coordinate  |  Candidates: 2
+  rMATS ID=24693  chr3:126772904-126772916 (-)  up:126770493-126770581  down:126775448-126775593  dPSI=-0.0380  FDR=7.00e-04 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=24694  chr3:126772904-126772916 (-)  up:126770493-126770596  down:126775448-126775593  dPSI=-0.1410  FDR=1.05e-01
+
+Paper event: Dock7.E1  |  Gene: Dock7  |  Match type: coordinate  |  Candidates: 2
+  rMATS ID=32360  chr4:98881883-98881973 (-)  up:98879629-98879696  down:98889269-98889439  dPSI=0.0110  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=32361  chr4:98881883-98881973 (-)  up:98880605-98880695  down:98889269-98889439  dPSI=-0.0090  FDR=9.59e-01
+
+Paper event: Pbrm1.E2  |  Gene: Pbrm1  |  Match type: coordinate  |  Candidates: 6
+  rMATS ID=17670  chr14:30745023-30745127 (+)  up:30741105-30741250  down:30747454-30747607  dPSI=0.0470  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=17671  chr14:30745023-30745127 (+)  up:30741105-30741250  down:30747457-30747607  dPSI=0.0170  FDR=1.00e+00
+  rMATS ID=17672  chr14:30745023-30745136 (+)  up:30741133-30741250  down:30747454-30747607  dPSI=0.0180  FDR=1.00e+00
+  rMATS ID=17673  chr14:30745023-30745136 (+)  up:30741133-30741250  down:30747457-30747607  dPSI=0.0120  FDR=1.00e+00
+  rMATS ID=17674  chr14:30745023-30745136 (+)  up:30744676-30744816  down:30747454-30747607  dPSI=0.0090  FDR=1.00e+00
+  rMATS ID=17675  chr14:30745023-30745136 (+)  up:30744676-30744816  down:30747457-30747607  dPSI=0.0200  FDR=1.00e+00
+
+Paper event: Senp6.E1  |  Gene: Senp6  |  Match type: coordinate  |  Candidates: 3
+  rMATS ID=63598  chr9:80006167-80006188 (+)  up:79974217-79974854  down:80010975-80011046  dPSI=0.0350  FDR=1.00e+00
+  rMATS ID=63599  chr9:80006167-80006188 (+)  up:79999548-79999694  down:80010975-80011046  dPSI=-0.0120  FDR=1.00e+00
+  rMATS ID=63600  chr9:80006167-80006188 (+)  up:80000818-80000923  down:80010975-80011046  dPSI=-0.0580  FDR=0.00e+00 << SELECTED (significant, strongest |dPSI|)
+
+================================================================================

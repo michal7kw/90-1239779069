@@ -1,0 +1,93 @@
+============================================
+14g_se: Expanded Gene Selection (SE only)
+Job ID: 8319425
+Start time: Mon Feb 16 11:03:21 AM CET 2026
+============================================
+========================================================
+14g_se: Expanded Gene Selection (3 Cumulative Groups)
+  *** SE events only ***
+========================================================
+
+Loading Neg_vs_Parental events...
+Loading Pos_vs_Parental events...
+  Neg total events: 73729, significant: 1612
+  Pos total events: 76995, significant: 2500
+
+  Neg significant SE events: 1034
+    Microexon (0-30bp): 110
+    Small (30-50bp):    119
+    Regular (>50bp):    805
+
+--- group1_neg_microexon: Microexon SE (0-30bp) ---
+  Genes with microexon SE events significant in Neg (neg_only + both)
+  Selection SE events: 110
+  Unique genes: 99
+  Neg events (all types) for these genes: 1528
+  Pos events (all types) for these genes: 1535
+  Gene summary saved: 99 genes
+  Genes with sig Pos events: 47 (47.5%)
+
+--- group2_neg_micro_small: Microexon + Small SE (0-50bp) ---
+  Genes with microexon or small exon SE events significant in Neg
+  Selection SE events: 229
+  Unique genes: 195
+  Neg events (all types) for these genes: 2984
+  Pos events (all types) for these genes: 3024
+  Gene summary saved: 195 genes
+  Genes with sig Pos events: 105 (53.8%)
+
+--- group3_neg_all_sizes: All SE Sizes ---
+  Genes with any SE event significant in Neg (all sizes)
+  Selection SE events: 1034
+  Unique genes: 787
+  Neg events (all types) for these genes: 10648
+  Pos events (all types) for these genes: 10809
+  Gene summary saved: 778 genes
+  Genes with sig Pos events: 483 (62.1%)
+
+========================================================
+  CROSS-GROUP SUMMARY (SE only)
+========================================================
+
+  Microexon SE (0-30bp)         :   99 genes,   110 selection SE events, 47 (47%) with sig Pos
+  Microexon + Small SE (0-50bp) :  195 genes,   229 selection SE events, 105 (54%) with sig Pos
+  All SE Sizes                  :  787 genes,  1034 selection SE events, 483 (61%) with sig Pos
+
+  Output base: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task5_expanded_groups_se
+
+14g_se complete.
+
+Results in: results/14_todo_analysis/task5_expanded_groups_se/
+results/14_todo_analysis/task5_expanded_groups_se/group1_neg_microexon/:
+total 423
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal      0 Feb 16 11:03 .
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal      0 Feb 16 11:03 ..
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   1881 Feb 16 11:03 gene_ids.txt
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   8730 Feb 16 11:03 gene_list.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   6514 Feb 16 11:03 gene_pos_summary.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 197615 Feb 16 11:03 neg_all_events_for_genes.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 198886 Feb 16 11:03 pos_all_events_for_genes.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  17774 Feb 16 11:03 selection_events.csv
+
+results/14_todo_analysis/task5_expanded_groups_se/group2_neg_micro_small/:
+total 829
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal      0 Feb 16 11:03 .
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal      0 Feb 16 11:03 ..
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   3705 Feb 16 11:03 gene_ids.txt
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  17240 Feb 16 11:03 gene_list.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  12599 Feb 16 11:03 gene_pos_summary.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 385788 Feb 16 11:03 neg_all_events_for_genes.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 391534 Feb 16 11:03 pos_all_events_for_genes.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  36557 Feb 16 11:03 selection_events.csv
+
+results/14_todo_analysis/task5_expanded_groups_se/group3_neg_all_sizes/:
+total 3024
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal       0 Feb 16 11:03 .
+drwxrwxr-x 2 kubacki.michal lg_kubacki.michal       0 Feb 16 11:03 ..
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   14953 Feb 16 11:03 gene_ids.txt
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   71821 Feb 16 11:03 gene_list.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal   49676 Feb 16 11:03 gene_pos_summary.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 1384612 Feb 16 11:03 neg_all_events_for_genes.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal 1407752 Feb 16 11:03 pos_all_events_for_genes.csv
+-rw-rw-r-- 1 kubacki.michal lg_kubacki.michal  165548 Feb 16 11:03 selection_events.csv
+End time: Mon Feb 16 11:03:36 AM CET 2026

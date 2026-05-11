@@ -1,0 +1,26 @@
+============================================
+14c: Neg-Exclusive Microexon Gene Composition
+Job ID: 8245591
+Requires: 14b output
+Start time: Wed Feb 11 10:56:09 AM CET 2026
+============================================
+========================================
+14c: Neg-Exclusive Microexon Gene Composition
+========================================
+  Loaded 81 neg-exclusive microexon gene IDs from 14b
+  Loaded 1269 Neg events for these genes
+
+  Loading Pos_vs_Parental events for neg-exclusive genes...
+  Total Pos events for these genes: 1281 (across 81 genes)
+
+  Generating plots...
+  Scatter: 1023 matched events, r = 0.407
+
+  Gene summary: 81 genes
+  Mean Pos events per gene: 15.8
+  Mean Pos significant per gene: 0.6
+
+14c complete.
+
+Results in: results/14_todo_analysis/task2_neg_exclusive_microexon/
+End time: Wed Feb 11 10:56:20 AM CET 2026

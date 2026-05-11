@@ -1,0 +1,131 @@
+============================================
+14e: SRRM3 Dosage-Microexon PSI Correlation
+Job ID: 8256477
+Start time: Wed Feb 11 06:44:23 PM CET 2026
+============================================
+========================================
+14e: SRRM3 Dosage-Microexon PSI Correlation
+========================================
+
+Step 1: Building 12-sample PSI matrix...
+  Neg_vs_Parental: 56961 SE events
+  Pos_vs_Parental: 59374 SE events
+  KO_vs_Parental:  60126 SE events
+  Unique event keys — Neg: 56961, Pos: 59374, KO: 60126
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+  Valid Neg_vs_Parental events: 54810
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+  Events with complete 12-sample PSI: 41707
+  After NA removal: 41707 events
+  Size distribution:
+
+microexon (<=30bp)    small (30-50bp)    regular (>50bp) 
+               908               2418              38381 
+
+  After avg_reads >= 10 filter: 41004 events
+  Size distribution after filter:
+
+microexon (<=30bp)    small (30-50bp)    regular (>50bp) 
+               888               2356              37760 
+
+  Microexon events (<=30bp): 888
+
+Step 2: Loading SRRM3/SRRM4 expression...
+  SRRM3 range: 3352.3 - 6001.2
+  SRRM4 range: 3957.9 - 4689.5
+
+Step 3: Computing per-event correlations...
+  Events with computable correlations: 40568
+  SRRM3 correlation strength by size:
+          
+           microexon (<=30bp) small (30-50bp) regular (>50bp)
+  moderate                189             496            7976
+  strong                   17              47             751
+  weak                    676            1799           28617
+
+  Microexon SRRM3 correlation summary:
+    Mean r  = 0.031
+    Median r = 0.027
+    Strong (|r|>0.7):   17 (1.9%)
+    Moderate (0.4-0.7): 189 (21.4%)
+    Positive r: 473 / 882 (53.6%)
+
+Step 4: Saving CSVs...
+  microexon_psi_matrix.csv: 888 events x 12 samples
+  dosage_correlations.csv: 40568 events
+
+Step 5: Generating plots...
+  Plot 1: Global scatter...
+`geom_smooth()` using formula = 'y ~ x'
+  Plot 1b: Global scatter (SRRM4)...
+`geom_smooth()` using formula = 'y ~ x'
+  Plot 2: Correlation histogram...
+  Plot 2b: Correlation histogram (SRRM4)...
+  Plot 3: Top correlated heatmap...
+null device 
+          1 
+  Plot 4: SRRM3 vs SRRM4 comparison...
+`geom_smooth()` using formula = 'y ~ x'
+  Plot 5: Dosage-response by size category...
+  dosage_summary_by_size.csv: 36 rows
+`geom_smooth()` using formula = 'y ~ x'
+  Plot 5b: Dosage-response by size category (SRRM4)...
+`geom_smooth()` using formula = 'y ~ x'
+
+========================================
+Verification & Summary
+========================================
+Total SE events (12-sample, avg_reads>=10): 41004
+  Microexons (<=30bp):  888
+  Small (30-50bp):      2356
+  Regular (>50bp):      37760
+
+Global SRRM3 ~ mean microexon PSI: r = 0.214, p = 5.03e-01
+Microexon per-event SRRM3 correlation: median r = 0.027
+  Strong  (|r|>0.7):   17 events
+  Moderate (0.4-0.7):  189 events
+  Weak     (<0.4):     676 events
+
+  Positive correlations: 53.6% of microexons [PASS]
+  Median |r| — microexons: 0.247, regular: 0.245 [PASS — microexons more SRRM3-sensitive]
+
+  Per-size-category SRRM3 correlation (mean PSI ~ SRRM3):
+    microexon (<=30bp): r = 0.214 (n = 888 events)
+    small (30-50bp): r = 0.031 (n = 2356 events)
+    regular (>50bp): r = 0.337 (n = 37760 events)
+
+Global SRRM4 ~ mean microexon PSI: r = -0.347, p = 2.69e-01
+Microexon per-event SRRM4 correlation: median r = -0.140
+  Strong  (|r|>0.7):   15 events
+  Moderate (0.4-0.7):  213 events
+  Weak     (<0.4):     654 events
+  Positive correlations: 32.5% of microexons
+
+  Per-size-category SRRM4 correlation (mean PSI ~ SRRM4):
+    microexon (<=30bp): r = -0.347 (n = 888 events)
+    small (30-50bp): r = -0.600 (n = 2356 events)
+    regular (>50bp): r = -0.010 (n = 37760 events)
+
+  SRRM3 vs SRRM4 comparison:
+    Global r (microexon PSI): SRRM3 = 0.214, SRRM4 = -0.347
+    Per-event median |r|:     SRRM3 = 0.247, SRRM4 = 0.240
+
+Outputs saved to: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task4_dosage_response
+  - microexon_psi_matrix.csv
+  - dosage_correlations.csv
+  - dosage_summary_by_size.csv
+  - plot1_global_scatter.pdf
+  - plot1b_global_scatter_srrm4.pdf
+  - plot2_correlation_histogram.pdf
+  - plot2b_correlation_histogram_srrm4.pdf
+  - plot3_top_correlated_heatmap.pdf
+  - plot4_srrm3_vs_srrm4.pdf
+  - plot5_dosage_by_size.pdf
+  - plot5b_dosage_by_size_srrm4.pdf
+
+14e complete.
+
+Results in: results/14_todo_analysis/task4_dosage_response/
+End time: Wed Feb 11 06:44:36 PM CET 2026

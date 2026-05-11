@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="mm39" hasGeneTrack="true" hasSequenceTrack="true" version="8">
+    <Resources>
+        <!-- Coverage tracks (BigWig) - grouped by condition -->
+        <!-- Parental -->
+        <Resource path="bigwig/Parental_1_subset.bw"/>
+        <Resource path="bigwig/Parental_2_subset.bw"/>
+        <Resource path="bigwig/Parental_3_subset.bw"/>
+        <!-- Neg -->
+        <Resource path="bigwig/Neg_1_subset.bw"/>
+        <Resource path="bigwig/Neg_2_subset.bw"/>
+        <Resource path="bigwig/Neg_3_subset.bw"/>
+        <!-- Pos -->
+        <Resource path="bigwig/Pos_1_subset.bw"/>
+        <Resource path="bigwig/Pos_2_subset.bw"/>
+        <Resource path="bigwig/Pos_3_subset.bw"/>
+        <!-- KO -->
+        <Resource path="bigwig/KO_1_subset.bw"/>
+        <Resource path="bigwig/KO_2_subset.bw"/>
+        <Resource path="bigwig/KO_3_subset.bw"/>
+
+        <!-- BAM files for sashimi plots - grouped by condition -->
+        <!-- Parental -->
+        <Resource path="bam/Parental_1_subset.bam"/>
+        <Resource path="bam/Parental_2_subset.bam"/>
+        <Resource path="bam/Parental_3_subset.bam"/>
+        <!-- Neg -->
+        <Resource path="bam/Neg_1_subset.bam"/>
+        <Resource path="bam/Neg_2_subset.bam"/>
+        <Resource path="bam/Neg_3_subset.bam"/>
+        <!-- Pos -->
+        <Resource path="bam/Pos_1_subset.bam"/>
+        <Resource path="bam/Pos_2_subset.bam"/>
+        <Resource path="bam/Pos_3_subset.bam"/>
+        <!-- KO -->
+        <Resource path="bam/KO_1_subset.bam"/>
+        <Resource path="bam/KO_2_subset.bam"/>
+        <Resource path="bam/KO_3_subset.bam"/>
+
+        <!-- Splicing event BED tracks -->
+        <Resource path="bed/KO_vs_Parental_significant_splicing.bed"/>
+        <Resource path="bed/Neg_vs_Parental_significant_splicing.bed"/>
+        <Resource path="bed/Pos_vs_Parental_significant_splicing.bed"/>
+        <Resource path="bed/KO_vs_Neg_significant_splicing.bed"/>
+        <Resource path="bed/Pos_vs_Neg_significant_splicing.bed"/>
+        <Resource path="bed/top_regions.bed"/>
+    </Resources>
+</Session>

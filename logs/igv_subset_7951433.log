@@ -1,0 +1,11 @@
+Using samtools: /beegfs/scratch/ric.broccoli/kubacki.michal/conda/bin/samtools
+Using bedtools: 
+==============================================
+Starting IGV Subset Creation
+Date: Tue Jan 20 12:04:34 PM CET 2026
+==============================================
+
+Step 0: Generating chromosome sizes file...
+Created /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/08_igv_subset/mm39.chrom.sizes with 61 chromosomes
+
+Step 1: Creating merged regions files...

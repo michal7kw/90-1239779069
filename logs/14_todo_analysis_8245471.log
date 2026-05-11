@@ -1,0 +1,9 @@
+============================================
+TODO Analysis (Tasks 1-3)
+Job ID: 8245471
+Start time: Wed Feb 11 10:37:30 AM CET 2026
+============================================
+
+Checking R packages...
+Missing packages: VennDiagram 
+ERROR: Missing required R packages

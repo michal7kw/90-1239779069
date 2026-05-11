@@ -1,0 +1,13 @@
+sample	group	inc1_reads	inc2_reads	skip_reads	novel_coverage
+1	Parental	153	170	137	612
+2	Parental	265	219	168	819
+3	Parental	200	158	130	739
+4	Neg	145	115	185	550
+5	Neg	181	129	250	716
+6	Neg	129	121	181	609
+7	Pos	111	104	216	536
+8	Pos	107	87	294	642
+9	Pos	102	105	331	670
+13	KO	10	0	164	263
+14	KO	19	0	140	256
+15	KO	17	0	155	263

@@ -1,0 +1,10 @@
+"comparison","size_category","Exc+Down","Exc+Up","Inc+Down","Inc+Up"
+"KO_vs_Parental","Microexon (0-30bp)",27,28,9,5
+"KO_vs_Parental","Small (30-50bp)",25,14,14,11
+"KO_vs_Parental","Regular (>50bp)",264,274,194,142
+"Neg_vs_Parental","Microexon (0-30bp)",6,5,69,30
+"Neg_vs_Parental","Small (30-50bp)",19,10,57,33
+"Neg_vs_Parental","Regular (>50bp)",260,138,270,137
+"Pos_vs_Parental","Microexon (0-30bp)",54,20,16,8
+"Pos_vs_Parental","Small (30-50bp)",42,21,41,18
+"Pos_vs_Parental","Regular (>50bp)",555,287,340,163

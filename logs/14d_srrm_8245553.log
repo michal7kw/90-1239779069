@@ -1,0 +1,37 @@
+============================================
+14d: Srrm3/Srrm4 Expression
+Job ID: 8245553
+Start time: Wed Feb 11 10:50:12 AM CET 2026
+============================================
+========================================
+14d: Srrm3 and Srrm4 Expression
+========================================
+  Found 2 SRRM genes
+
+  Expression summary:
+  gene_symbol    group     mean        sd       sem n
+1       Srrm3 Parental 5680.810 284.68316 164.36190 3
+2       Srrm3      Neg 4752.014  99.79053  57.61409 3
+3       Srrm3      Pos 5259.068  87.22936  50.36189 3
+4       Srrm3       KO 3380.863  44.60805  25.75447 3
+5       Srrm4 Parental 4638.230  49.22242  28.41858 3
+6       Srrm4      Neg 4038.484  78.19881  45.14810 3
+7       Srrm4      Pos 4345.568  81.46269  47.03251 3
+8       Srrm4       KO 4139.541  74.40695  42.95887 3
+
+  DESeq2 significance:
+  gene_symbol      comparison      log2FC         padj sig_label
+1       Srrm3 Neg_vs_Parental -0.25755654 6.457104e-06       ***
+2       Srrm4 Neg_vs_Parental -0.19947687 2.001192e-04       ***
+3       Srrm3 Pos_vs_Parental -0.11131688 6.927310e-02        ns
+4       Srrm4 Pos_vs_Parental -0.09377407 1.027082e-01        ns
+5       Srrm3  KO_vs_Parental -0.74856258 7.785502e-43       ***
+6       Srrm4  KO_vs_Parental -0.16408133 2.188591e-03        **
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Srrm3 and Srrm4 Expression — Box Plot' in 'mbcsToSbcs': - substituted for — (U+2014)
+
+14d complete.
+
+Results in: results/14_todo_analysis/task3_srrm_expression/
+End time: Wed Feb 11 10:50:21 AM CET 2026

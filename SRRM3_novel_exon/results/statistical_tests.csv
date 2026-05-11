@@ -1,0 +1,5 @@
+comparison,test,alternative,p_value
+Pos_vs_Parental,Wilcoxon,greater,1
+Pos_vs_Neg,Wilcoxon,greater,1
+Pos_vs_KO,Wilcoxon,greater,0.05
+All_groups,Kruskal-Wallis,two-sided,0.0155643974585932

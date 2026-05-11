@@ -1,0 +1,19 @@
+"comparison","size_category","total","significant","sig_inclusion","sig_exclusion","mean_exon_length"
+"KO_vs_Neg","Microexon (0-30bp)",1129,174,290,766,22.1098317094774
+"KO_vs_Neg","Small (30-50bp)",3191,123,1216,1679,41.984957693513
+"KO_vs_Neg","Regular (>50bp)",55949,860,21950,27311,158.285795992779
+"KO_vs_Parental","Microexon (0-30bp)",1064,69,340,647,22.0084586466165
+"KO_vs_Parental","Small (30-50bp)",3032,64,1183,1545,42.0227572559367
+"KO_vs_Parental","Regular (>50bp)",52177,875,17305,28906,158.009946911474
+"KO_vs_Pos","Microexon (0-30bp)",1161,86,549,536,22.1403962101637
+"KO_vs_Pos","Small (30-50bp)",3341,72,1545,1477,41.9679736605807
+"KO_vs_Pos","Regular (>50bp)",57572,761,24875,25711,158.284044327103
+"Neg_vs_Parental","Microexon (0-30bp)",1044,110,625,341,21.9913793103448
+"Neg_vs_Parental","Small (30-50bp)",2907,119,1393,1262,41.9714482284142
+"Neg_vs_Parental","Regular (>50bp)",49375,805,18331,25099,159.459463291139
+"Pos_vs_Neg","Microexon (0-30bp)",1149,159,283,802,21.970409051349
+"Pos_vs_Neg","Small (30-50bp)",3240,102,1215,1715,41.9404320987654
+"Pos_vs_Neg","Regular (>50bp)",55013,651,21645,26481,159.587097595114
+"Pos_vs_Parental","Microexon (0-30bp)",1084,98,381,641,21.929889298893
+"Pos_vs_Parental","Small (30-50bp)",3068,122,1195,1598,41.9514341590613
+"Pos_vs_Parental","Regular (>50bp)",51595,1346,17670,28036,160.423917046225

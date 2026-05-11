@@ -1,0 +1,2 @@
+"ID","Description","setSize","enrichmentScore","NES","pvalue","p.adjust","qvalue","rank","leading_edge","core_enrichment"
+"GO:1903312","negative regulation of mRNA metabolic process",10,0.766224636035521,2.51331369345389,2.00253060455793e-05,0.0247713035783815,0.0246416660708233,115,"tags=70%, list=11%, signal=63%","67493/117149/67996/13211/225027/70439/22030"

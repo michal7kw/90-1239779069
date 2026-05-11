@@ -1,0 +1,44 @@
+=== Sashimi plot generation started: Wed Jan 21 05:13:53 PM CET 2026 ===
+Created BAM config file: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/SRRM3_novel_exon/bam_config.tsv
+WARNING: overwriting environment variables set in the machine
+overwriting variable ['TMPDIR']
+Generating sashimi plot for novel exon region...
+Region: chr5:135897500-135902500
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 
+Warning message:
+package ‘gridExtra’ was built under R version 4.4.3 
+Warning message:
+package ‘data.table’ was built under R version 4.4.3 
+Warning message:
+package ‘gtable’ was built under R version 4.4.3 
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 21 warnings (use warnings() to see them)
+
+Generating zoomed sashimi plot...
+Region: chr5:135898000-135902000
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 
+Warning message:
+package ‘gridExtra’ was built under R version 4.4.3 
+Warning message:
+package ‘data.table’ was built under R version 4.4.3 
+Warning message:
+package ‘gtable’ was built under R version 4.4.3 
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+There were 22 warnings (use warnings() to see them)
+
+=== Sashimi plot generation completed: Wed Jan 21 05:14:28 PM CET 2026 ===
+Output files:
+  - /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/SRRM3_novel_exon/results/sashimi_novel_exon.pdf
+  - /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/SRRM3_novel_exon/results/sashimi_novel_exon_zoomed.pdf

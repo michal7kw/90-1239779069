@@ -1,0 +1,107 @@
+============================================
+Microexon Expression Correlation Analysis
+Start time: 2026-01-21 17:15:29 
+============================================
+
+
+=== Processing: Neg_vs_Parental ===
+Merging splicing and expression data...
+  Matched 53271 events with expression data
+  Total events: 53326
+Calculating correlations by exon size...
+
+Correlation summary:
+# A tibble: 3 × 11
+  comparison      size_category      n_events n_sig_both n_sig_splicing_only
+  <chr>           <fct>                 <int>      <int>               <int>
+1 Neg_vs_Parental Microexon (0-30bp)     1043          2                 108
+2 Neg_vs_Parental Small (30-50bp)        2906          0                 119
+3 Neg_vs_Parental Regular (>50bp)       49322          9                 796
+# ℹ 6 more variables: n_sig_expression_only <int>, n_neither_sig <int>,
+#   pearson_r <dbl>, spearman_rho <dbl>, pearson_p <dbl>, spearman_p <dbl>
+Generating scatter plots for Neg_vs_Parental...
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+
+=== Processing: Pos_vs_Parental ===
+Merging splicing and expression data...
+  Matched 55702 events with expression data
+  Total events: 55747
+Calculating correlations by exon size...
+
+Correlation summary:
+# A tibble: 3 × 11
+  comparison      size_category      n_events n_sig_both n_sig_splicing_only
+  <chr>           <fct>                 <int>      <int>               <int>
+1 Pos_vs_Parental Microexon (0-30bp)     1083          1                  97
+2 Pos_vs_Parental Small (30-50bp)        3066          1                 121
+3 Pos_vs_Parental Regular (>50bp)       51553         30                1315
+# ℹ 6 more variables: n_sig_expression_only <int>, n_neither_sig <int>,
+#   pearson_r <dbl>, spearman_rho <dbl>, pearson_p <dbl>, spearman_p <dbl>
+Generating scatter plots for Pos_vs_Parental...
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+
+=== Processing: KO_vs_Parental ===
+Merging splicing and expression data...
+  Matched 56227 events with expression data
+  Total events: 56273
+Calculating correlations by exon size...
+
+Correlation summary:
+# A tibble: 3 × 11
+  comparison     size_category      n_events n_sig_both n_sig_splicing_only
+  <chr>          <fct>                 <int>      <int>               <int>
+1 KO_vs_Parental Microexon (0-30bp)     1063          2                  67
+2 KO_vs_Parental Small (30-50bp)        3031          2                  62
+3 KO_vs_Parental Regular (>50bp)       52133         33                 841
+# ℹ 6 more variables: n_sig_expression_only <int>, n_neither_sig <int>,
+#   pearson_r <dbl>, spearman_rho <dbl>, pearson_p <dbl>, spearman_p <dbl>
+Generating scatter plots for KO_vs_Parental...
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+There were 15 warnings (use warnings() to see them)
+
+=== Combined Analysis ===
+Generating correlation heatmap...
+Analyzing quadrant distribution...
+Generating combined scatter plot...
+`geom_smooth()` using formula = 'y ~ x'
+
+============================================
+Expression Correlation Analysis Summary
+============================================
+
+Neg_vs_Parental:
+  Total events merged: 53326
+  Events with expression data: 53271
+  Significant in both: 11
+  Microexon Spearman rho: -0.09 (p=0.00365)
+
+Pos_vs_Parental:
+  Total events merged: 55747
+  Events with expression data: 55702
+  Significant in both: 32
+  Microexon Spearman rho: 0.032 (p=0.296)
+
+KO_vs_Parental:
+  Total events merged: 56273
+  Events with expression data: 56227
+  Significant in both: 37
+  Microexon Spearman rho: 0.033 (p=0.277)
+
+============================================
+Expression Correlation Analysis Complete!
+============================================
+Output directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/09_microexon_extended/expression_correlation 
+
+Generated outputs:
+  - {Comparison}_correlation.csv: Correlation statistics
+  - {Comparison}_merged_significant.csv: Merged significant events
+  - {Comparison}_scatter_*.pdf: Scatter plots
+  - correlation_summary.csv: Combined correlation statistics
+  - correlation_heatmap.pdf: Correlation heatmap
+  - quadrant_distribution.csv/pdf: Quadrant analysis
+
+End time: 2026-01-21 17:15:55 
+============================================

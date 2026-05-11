@@ -1,0 +1,641 @@
+Multi-Match Event Report: KO_vs_Parental (Double KD - Microexons)
+Generated: 2026-02-06 11:50:25.902184
+================================================================================
+
+Paper events with multiple rMATS candidates: 133
+Total rMATS candidate entries: 364
+Selection criterion: prefer significant (FDR < 0.05), then strongest |dPSI|
+
+--------------------------------------------------------------------------------
+
+VastDB: MmuEX0000269  |  Gene: 1500009L16Rik  |  Paper length: 25bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=24842  chr10:83573772-83573797 (+)  exon=25bp  dPSI=0.0060  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=24843  chr10:83573772-83573797 (+)  exon=25bp  dPSI=0.0050  FDR=1.00e+00
+
+VastDB: MmuEX0000800  |  Gene: 2210408F21Rik  |  Paper length: 29bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=48217  chr6:31305266-31305295 (+)  exon=29bp  dPSI=0.0240  FDR=1.00e+00
+  rMATS ID=48218  chr6:31305266-31305295 (+)  exon=29bp  dPSI=-0.2020  FDR=1.56e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0001195  |  Gene: 2700062C07Rik  |  Paper length: 23bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=2795  chr18:24604118-24604141 (+)  exon=23bp  dPSI=-0.0240  FDR=2.18e-01
+  rMATS ID=2796  chr18:24604118-24604141 (+)  exon=23bp  dPSI=-0.0320  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0002364  |  Gene: 9430015G10Rik  |  Paper length: 26bp  |  Match: gene_size_contained  |  Candidates: 4
+  rMATS ID=19060  chr4:156208432-156208458 (+)  exon=26bp  dPSI=0.0010  FDR=1.00e+00
+  rMATS ID=19061  chr4:156208432-156208458 (+)  exon=26bp  dPSI=-0.0150  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=19063  chr4:156208548-156208579 (+)  exon=31bp  dPSI=-0.0190  FDR=1.00e+00
+  rMATS ID=19064  chr4:156208548-156208579 (+)  exon=31bp  dPSI=-0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0003242  |  Gene: Abi1  |  Paper length: 15bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=25496  chr2:22853225-22853240 (-)  exon=15bp  dPSI=-0.0160  FDR=2.93e-05 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=25497  chr2:22853225-22853240 (-)  exon=15bp  dPSI=0.0080  FDR=1.00e+00
+
+VastDB: MmuEX0004297  |  Gene: Agrn  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=29431  chr4:156254002-156254014 (-)  exon=12bp  dPSI=0.0050  FDR=1.00e+00
+  rMATS ID=29432  chr4:156254002-156254014 (-)  exon=12bp  dPSI=-0.1140  FDR=2.72e-11 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0004311  |  Gene: Agrn  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=29427  chr4:156253002-156253026 (-)  exon=24bp  dPSI=0.0040  FDR=1.00e+00
+  rMATS ID=29428  chr4:156253002-156253026 (-)  exon=24bp  dPSI=-0.0170  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0004470  |  Gene: Akap1  |  Paper length: 13bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=31809  chr11:88734637-88734650 (-)  exon=13bp  dPSI=-0.1880  FDR=1.00e+00
+  rMATS ID=31810  chr11:88734637-88734650 (-)  exon=13bp  dPSI=-0.4450  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0004898  |  Gene: Ank2  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=25078  chr3:126772904-126772916 (-)  exon=12bp  dPSI=0.0020  FDR=1.00e+00
+  rMATS ID=25079  chr3:126772904-126772916 (-)  exon=12bp  dPSI=-0.1840  FDR=6.08e-03 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0004910  |  Gene: Ank3  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=60664  chr10:69765276-69765288 (+)  exon=12bp  dPSI=-0.0300  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=60665  chr10:69765276-69765288 (+)  exon=12bp  dPSI=0.0020  FDR=1.00e+00
+
+VastDB: MmuEX0004931  |  Gene: Ank3  |  Paper length: 27bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=60658  chr10:69658907-69658931 (+)  exon=24bp  dPSI=-0.0190  FDR=1.00e+00
+  rMATS ID=60667  chr10:69816653-69816680 (+)  exon=27bp  dPSI=-0.1290  FDR=3.21e-03 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0005383  |  Gene: Ap1ar  |  Paper length: 26bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=42257  chr3:127614408-127614434 (-)  exon=26bp  dPSI=0.0220  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=42258  chr3:127614408-127614434 (-)  exon=26bp  dPSI=-0.0020  FDR=1.00e+00
+
+VastDB: MmuEX0005816  |  Gene: Arhgap21  |  Paper length: 25bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=27021  chr2:20858768-20858789 (-)  exon=21bp  dPSI=-0.0040  FDR=1.00e+00
+  rMATS ID=27028  chr2:20888010-20888040 (-)  exon=30bp  dPSI=0.1090  FDR=2.59e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0005966  |  Gene: Arhgef11  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=57240  chr3:87589166-87589199 (+)  exon=33bp  dPSI=0.0310  FDR=3.54e-01
+  rMATS ID=57245  chr3:87625535-87625565 (+)  exon=30bp  dPSI=0.0820  FDR=2.50e-02 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=57246  chr3:87625535-87625565 (+)  exon=30bp  dPSI=-0.0130  FDR=1.00e+00
+
+VastDB: MmuEX0006334  |  Gene: Asap1  |  Paper length: 9bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=7630  chr15:64025692-64025701 (-)  exon=9bp  dPSI=0.0050  FDR=1.00e+00
+  rMATS ID=7631  chr15:64025692-64025701 (-)  exon=9bp  dPSI=-0.0860  FDR=2.97e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0008835  |  Gene: Cacnb1  |  Paper length: 20bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=14618  chr11:97901452-97901472 (-)  exon=20bp  dPSI=-0.3410  FDR=4.96e-02 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=14619  chr11:97901452-97901472 (-)  exon=20bp  dPSI=-0.0650  FDR=5.18e-01
+  rMATS ID=14620  chr11:97901452-97901472 (-)  exon=20bp  dPSI=-0.1450  FDR=4.50e-01
+  rMATS ID=14621  chr11:97901452-97901472 (-)  exon=20bp  dPSI=-0.0240  FDR=1.71e-01
+
+VastDB: MmuEX0009318  |  Gene: Catsper2  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=47769  chr2:121229926-121229950 (-)  exon=24bp  dPSI=-0.0640  FDR=1.00e+00
+  rMATS ID=47770  chr2:121229926-121229950 (-)  exon=24bp  dPSI=0.2790  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=47771  chr2:121229926-121229950 (-)  exon=24bp  dPSI=-0.0080  FDR=1.00e+00
+
+VastDB: MmuEX0009873  |  Gene: Ccdc66  |  Paper length: 26bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=31837  chr14:27227594-27227620 (-)  exon=26bp  dPSI=-0.0220  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=31838  chr14:27227594-27227620 (-)  exon=26bp  dPSI=-0.0210  FDR=1.00e+00
+
+VastDB: MmuEX0011317  |  Gene: Chmp2a  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=46607  chr7:12766718-12766748 (-)  exon=30bp  dPSI=-0.0080  FDR=1.00e+00
+  rMATS ID=46608  chr7:12766718-12766748 (-)  exon=30bp  dPSI=-0.0320  FDR=2.29e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0011499  |  Gene: Clasp1  |  Paper length: 24bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=33756  chr1:118440434-118440458 (+)  exon=24bp  dPSI=0.0060  FDR=1.00e+00
+  rMATS ID=33757  chr1:118440434-118440458 (+)  exon=24bp  dPSI=-0.2670  FDR=6.80e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=33758  chr1:118451050-118451077 (+)  exon=27bp  dPSI=-0.0240  FDR=1.00e+00
+  rMATS ID=33763  chr1:118469404-118469428 (+)  exon=24bp  dPSI=-0.0930  FDR=5.51e-03
+  rMATS ID=33764  chr1:118469404-118469428 (+)  exon=24bp  dPSI=-0.0160  FDR=1.00e+00
+
+VastDB: MmuEX0011506  |  Gene: Clasp1  |  Paper length: 27bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=33756  chr1:118440434-118440458 (+)  exon=24bp  dPSI=0.0060  FDR=1.00e+00
+  rMATS ID=33757  chr1:118440434-118440458 (+)  exon=24bp  dPSI=-0.2670  FDR=6.80e-01
+  rMATS ID=33758  chr1:118451050-118451077 (+)  exon=27bp  dPSI=-0.0240  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=33763  chr1:118469404-118469428 (+)  exon=24bp  dPSI=-0.0930  FDR=5.51e-03
+  rMATS ID=33764  chr1:118469404-118469428 (+)  exon=24bp  dPSI=-0.0160  FDR=1.00e+00
+
+VastDB: MmuEX0011507  |  Gene: Clasp1  |  Paper length: 24bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=33756  chr1:118440434-118440458 (+)  exon=24bp  dPSI=0.0060  FDR=1.00e+00
+  rMATS ID=33757  chr1:118440434-118440458 (+)  exon=24bp  dPSI=-0.2670  FDR=6.80e-01
+  rMATS ID=33758  chr1:118451050-118451077 (+)  exon=27bp  dPSI=-0.0240  FDR=1.00e+00
+  rMATS ID=33763  chr1:118469404-118469428 (+)  exon=24bp  dPSI=-0.0930  FDR=5.51e-03 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=33764  chr1:118469404-118469428 (+)  exon=24bp  dPSI=-0.0160  FDR=1.00e+00
+
+VastDB: MmuEX0011514  |  Gene: Clasp2  |  Paper length: 24bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=25265  chr9:113687648-113687672 (+)  exon=24bp  dPSI=-0.0860  FDR=2.18e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=25267  chr9:113691503-113691530 (+)  exon=27bp  dPSI=0.0030  FDR=1.00e+00
+  rMATS ID=25271  chr9:113707817-113707841 (+)  exon=24bp  dPSI=-0.1160  FDR=1.23e-05
+
+VastDB: MmuEX0011524  |  Gene: Clasp2  |  Paper length: 17bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=25263  chr9:113670226-113670243 (+)  exon=17bp  dPSI=-0.0020  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=25266  chr9:113689187-113689205 (+)  exon=18bp  dPSI=0.1560  FDR=3.83e-04
+
+VastDB: MmuEX0011526  |  Gene: Clasp2  |  Paper length: 27bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=25265  chr9:113687648-113687672 (+)  exon=24bp  dPSI=-0.0860  FDR=2.18e-01
+  rMATS ID=25267  chr9:113691503-113691530 (+)  exon=27bp  dPSI=0.0030  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=25271  chr9:113707817-113707841 (+)  exon=24bp  dPSI=-0.1160  FDR=1.23e-05
+
+VastDB: MmuEX0011532  |  Gene: Clasp2  |  Paper length: 24bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=25265  chr9:113687648-113687672 (+)  exon=24bp  dPSI=-0.0860  FDR=2.18e-01
+  rMATS ID=25267  chr9:113691503-113691530 (+)  exon=27bp  dPSI=0.0030  FDR=1.00e+00
+  rMATS ID=25271  chr9:113707817-113707841 (+)  exon=24bp  dPSI=-0.1160  FDR=1.23e-05 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0011790  |  Gene: Clstn1  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=59965  chr4:149710543-149710573 (+)  exon=30bp  dPSI=-0.0150  FDR=5.70e-01
+  rMATS ID=59966  chr4:149710543-149710573 (+)  exon=30bp  dPSI=0.0290  FDR=5.09e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0012543  |  Gene: Cpeb4  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=39744  chr11:31868800-31868824 (+)  exon=24bp  dPSI=0.0400  FDR=2.57e-01
+  rMATS ID=39745  chr11:31868800-31868824 (+)  exon=24bp  dPSI=0.1220  FDR=1.25e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0013906  |  Gene: Dclk2  |  Paper length: 13bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=43318  chr3:86695928-86695941 (-)  exon=13bp  dPSI=0.2370  FDR=1.39e-03 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=43319  chr3:86695928-86695941 (-)  exon=13bp  dPSI=-0.0060  FDR=1.00e+00
+  rMATS ID=43320  chr3:86695928-86695941 (-)  exon=13bp  dPSI=0.5640  FDR=1.00e+00
+
+VastDB: MmuEX0013951  |  Gene: Dctn1  |  Paper length: 15bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=50063  chr6:83163409-83163427 (+)  exon=18bp  dPSI=0.0250  FDR=1.00e+00
+  rMATS ID=50064  chr6:83163409-83163427 (+)  exon=18bp  dPSI=0.0040  FDR=1.00e+00
+  rMATS ID=50065  chr6:83163409-83163427 (+)  exon=18bp  dPSI=0.1420  FDR=1.07e-02
+  rMATS ID=50066  chr6:83163409-83163427 (+)  exon=18bp  dPSI=0.0120  FDR=1.00e+00
+  rMATS ID=50074  chr6:83174300-83174315 (+)  exon=15bp  dPSI=-0.1340  FDR=2.91e-06 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0014010  |  Gene: Ddhd1  |  Paper length: 21bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=9138  chr14:45866310-45866331 (-)  exon=21bp  dPSI=-0.0600  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=9139  chr14:45866310-45866331 (-)  exon=21bp  dPSI=-0.0130  FDR=1.00e+00
+  rMATS ID=9140  chr14:45866310-45866331 (-)  exon=21bp  dPSI=-0.0370  FDR=1.00e+00
+
+VastDB: MmuEX0014308  |  Gene: Denr  |  Paper length: 20bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=16708  chr5:124053253-124053273 (+)  exon=20bp  dPSI=0.0010  FDR=1.00e+00
+  rMATS ID=16709  chr5:124053253-124053273 (+)  exon=20bp  dPSI=-0.0030  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0014546  |  Gene: Dhx30  |  Paper length: 29bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=65945  chr9:109937008-109937037 (-)  exon=29bp  dPSI=0.0620  FDR=4.21e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=65946  chr9:109937008-109937037 (-)  exon=29bp  dPSI=-0.0370  FDR=5.21e-02
+
+VastDB: MmuEX0014792  |  Gene: Dlg1  |  Paper length: 21bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=27510  chr16:31673485-31673506 (+)  exon=21bp  dPSI=-0.0380  FDR=1.00e+00
+  rMATS ID=27511  chr16:31673485-31673506 (+)  exon=21bp  dPSI=-0.0780  FDR=6.37e-06 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0015479  |  Gene: Dock9  |  Paper length: 8bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=34319  chr14:121781987-121781995 (-)  exon=8bp  dPSI=-0.0250  FDR=4.93e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=34322  chr14:121797806-121797812 (-)  exon=6bp  dPSI=0.0110  FDR=1.00e+00
+  rMATS ID=34323  chr14:121797806-121797812 (-)  exon=6bp  dPSI=-0.0810  FDR=1.81e-02
+
+VastDB: MmuEX0015480  |  Gene: Dock9  |  Paper length: 6bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=34319  chr14:121781987-121781995 (-)  exon=8bp  dPSI=-0.0250  FDR=4.93e-01
+  rMATS ID=34322  chr14:121797806-121797812 (-)  exon=6bp  dPSI=0.0110  FDR=1.00e+00
+  rMATS ID=34323  chr14:121797806-121797812 (-)  exon=6bp  dPSI=-0.0810  FDR=1.81e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0015633  |  Gene: Dpy19l1  |  Paper length: 25bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=49325  chr9:24337429-24337454 (-)  exon=25bp  dPSI=-0.0080  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=49335  chr9:24397000-24397025 (-)  exon=25bp  dPSI=0.2470  FDR=4.79e-02
+
+VastDB: MmuEX0015840  |  Gene: Dtnbp1  |  Paper length: 23bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=46043  chr13:45106647-45106670 (-)  exon=23bp  dPSI=0.0220  FDR=2.48e-02
+  rMATS ID=46044  chr13:45106647-45106670 (-)  exon=23bp  dPSI=-0.0280  FDR=1.00e+00
+  rMATS ID=46045  chr13:45106647-45106670 (-)  exon=23bp  dPSI=-0.1140  FDR=1.71e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0016267  |  Gene: Eef1d  |  Paper length: 15bp  |  Match: gene_size  |  Candidates: 5
+  rMATS ID=35810  chr15:75777734-75777749 (-)  exon=15bp  dPSI=-0.0360  FDR=5.77e-01
+  rMATS ID=35811  chr15:75777734-75777749 (-)  exon=15bp  dPSI=-0.4200  FDR=1.05e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=35812  chr15:75777734-75777749 (-)  exon=15bp  dPSI=-0.0190  FDR=1.00e+00
+  rMATS ID=35813  chr15:75777734-75777749 (-)  exon=15bp  dPSI=-0.0670  FDR=1.00e+00
+  rMATS ID=35814  chr15:75777734-75777749 (-)  exon=15bp  dPSI=-0.0020  FDR=1.00e+00
+
+VastDB: MmuEX0016617  |  Gene: Eif4g1  |  Paper length: 21bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=5740  chr16:20493535-20493556 (+)  exon=21bp  dPSI=-0.0510  FDR=4.03e-02 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=5741  chr16:20493535-20493556 (+)  exon=21bp  dPSI=-0.0580  FDR=1.16e-01
+
+VastDB: MmuEX0016639  |  Gene: Eif4g3  |  Paper length: 21bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=50431  chr4:137823219-137823240 (+)  exon=21bp  dPSI=-0.0140  FDR=1.00e+00
+  rMATS ID=50432  chr4:137823219-137823240 (+)  exon=21bp  dPSI=-0.0080  FDR=4.94e-01
+  rMATS ID=50433  chr4:137823219-137823240 (+)  exon=21bp  dPSI=-0.0870  FDR=9.58e-02 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=50434  chr4:137823219-137823240 (+)  exon=21bp  dPSI=-0.0290  FDR=5.83e-02
+
+VastDB: MmuEX0016651  |  Gene: Eif5a  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 5
+  rMATS ID=69848  chr11:69810274-69810304 (-)  exon=30bp  dPSI=0.0100  FDR=7.42e-01
+  rMATS ID=69849  chr11:69810274-69810304 (-)  exon=30bp  dPSI=0.0150  FDR=3.39e-01
+  rMATS ID=69850  chr11:69810274-69810304 (-)  exon=30bp  dPSI=0.0130  FDR=1.00e+00
+  rMATS ID=69851  chr11:69810274-69810304 (-)  exon=30bp  dPSI=-0.0740  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=69852  chr11:69810274-69810304 (-)  exon=30bp  dPSI=-0.0000  FDR=1.00e+00
+
+VastDB: MmuEX0016849  |  Gene: Enah  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=26642  chr1:181758738-181758750 (-)  exon=12bp  dPSI=0.0160  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=26643  chr1:181758738-181758750 (-)  exon=12bp  dPSI=-0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0018055  |  Gene: Fam168a  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=56930  chr7:100467942-100467969 (+)  exon=27bp  dPSI=0.0350  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=56931  chr7:100467942-100467969 (+)  exon=27bp  dPSI=0.0300  FDR=1.00e+00
+
+VastDB: MmuEX0018305  |  Gene: Fam3c  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=23540  chr6:22329577-22329607 (-)  exon=30bp  dPSI=-0.0020  FDR=1.00e+00
+  rMATS ID=23541  chr6:22329577-22329607 (-)  exon=30bp  dPSI=0.0020  FDR=1.00e+00
+  rMATS ID=23542  chr6:22329577-22329607 (-)  exon=30bp  dPSI=-0.0110  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0018702  |  Gene: Fbf1  |  Paper length: 28bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=13714  chr11:116055488-116055516 (-)  exon=28bp  dPSI=-0.0070  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=13715  chr11:116055488-116055516 (-)  exon=28bp  dPSI=-0.0060  FDR=1.00e+00
+
+VastDB: MmuEX0019436  |  Gene: Fnbp1  |  Paper length: 15bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=61841  chr2:30934893-30934908 (-)  exon=15bp  dPSI=-0.0390  FDR=1.00e+00
+  rMATS ID=61842  chr2:30934893-30934908 (-)  exon=15bp  dPSI=-0.2220  FDR=3.47e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0020453  |  Gene: Git2  |  Paper length: 6bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=25440  chr5:114891208-114891214 (-)  exon=6bp  dPSI=-0.0540  FDR=1.30e-04 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=25441  chr5:114891208-114891214 (-)  exon=6bp  dPSI=-0.0310  FDR=5.54e-01
+
+VastDB: MmuEX0021319  |  Gene: Gnas  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=32049  chr2:174169900-174169924 (+)  exon=24bp  dPSI=-0.0150  FDR=2.06e-01
+  rMATS ID=32050  chr2:174169900-174169924 (+)  exon=24bp  dPSI=-0.0420  FDR=4.50e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=32051  chr2:174169900-174169924 (+)  exon=24bp  dPSI=0.0120  FDR=5.90e-01
+
+VastDB: MmuEX0021546  |  Gene: Gpatch8  |  Paper length: 18bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=34635  chr11:102422138-102422156 (-)  exon=18bp  dPSI=-0.0840  FDR=1.00e+00
+  rMATS ID=34636  chr11:102422138-102422156 (-)  exon=18bp  dPSI=-0.1330  FDR=5.81e-05 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0022165  |  Gene: Gtpbp2  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=3654  chr17:46474408-46474435 (+)  exon=27bp  dPSI=-0.0050  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=3655  chr17:46474408-46474435 (+)  exon=27bp  dPSI=-0.0030  FDR=1.00e+00
+
+VastDB: MmuEX0023592  |  Gene: Idh3g  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=69981  chrX:72825903-72825915 (-)  exon=12bp  dPSI=-0.0400  FDR=6.97e-05 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=69982  chrX:72825903-72825915 (-)  exon=12bp  dPSI=-0.0250  FDR=0.00e+00
+
+VastDB: MmuEX0023608  |  Gene: Iffo1  |  Paper length: 9bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=53838  chr6:125128757-125128766 (+)  exon=9bp  dPSI=0.2120  FDR=4.15e-11 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=53841  chr6:125128760-125128766 (+)  exon=6bp  dPSI=0.0190  FDR=8.47e-01
+
+VastDB: MmuEX0024182  |  Gene: Inpp4a  |  Paper length: 15bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=42188  chr1:37413352-37413370 (+)  exon=18bp  dPSI=-0.0130  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=42189  chr1:37413355-37413370 (+)  exon=15bp  dPSI=-0.0020  FDR=1.00e+00
+
+VastDB: MmuEX0025132  |  Gene: Kcnq2  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=41353  chr2:180738742-180738772 (-)  exon=30bp  dPSI=-0.0020  FDR=1.00e+00
+  rMATS ID=41354  chr2:180738742-180738772 (-)  exon=30bp  dPSI=-0.0100  FDR=1.00e+00
+  rMATS ID=41357  chr2:180745434-180745464 (-)  exon=30bp  dPSI=0.0530  FDR=2.00e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0025589  |  Gene: Kif3a  |  Paper length: 9bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=69164  chr11:53481543-53481552 (+)  exon=9bp  dPSI=0.0020  FDR=1.00e+00
+  rMATS ID=69165  chr11:53481543-53481552 (+)  exon=9bp  dPSI=0.0270  FDR=7.43e-01
+  rMATS ID=69166  chr11:53481543-53481552 (+)  exon=9bp  dPSI=-0.0360  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=69167  chr11:53481543-53481552 (+)  exon=9bp  dPSI=0.0270  FDR=1.00e+00
+
+VastDB: MmuEX0025877  |  Gene: Kpna3  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=8641  chr14:61628996-61629026 (-)  exon=30bp  dPSI=-0.0030  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=8642  chr14:61628996-61629026 (-)  exon=30bp  dPSI=-0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0025977  |  Gene: L1cam  |  Paper length: 15bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=54095  chrX:72899257-72899269 (-)  exon=12bp  dPSI=-0.1500  FDR=0.00e+00
+  rMATS ID=54096  chrX:72899257-72899269 (-)  exon=12bp  dPSI=-0.0150  FDR=1.00e+00
+  rMATS ID=54114  chrX:72910627-72910642 (-)  exon=15bp  dPSI=-0.0590  FDR=2.40e-06 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0025978  |  Gene: L1cam  |  Paper length: 12bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=54095  chrX:72899257-72899269 (-)  exon=12bp  dPSI=-0.1500  FDR=0.00e+00 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=54096  chrX:72899257-72899269 (-)  exon=12bp  dPSI=-0.0150  FDR=1.00e+00
+  rMATS ID=54114  chrX:72910627-72910642 (-)  exon=15bp  dPSI=-0.0590  FDR=2.40e-06
+
+VastDB: MmuEX0026604  |  Gene: Lmf1  |  Paper length: 11bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=11870  chr17:25807649-25807660 (+)  exon=11bp  dPSI=0.1720  FDR=2.54e-01
+  rMATS ID=11871  chr17:25807649-25807660 (+)  exon=11bp  dPSI=0.0120  FDR=4.00e-03 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=11874  chr17:25822736-25822747 (+)  exon=11bp  dPSI=0.0390  FDR=1.00e+00
+
+VastDB: MmuEX0027467  |  Gene: Macf1  |  Paper length: 12bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=46419  chr4:123262613-123262625 (-)  exon=12bp  dPSI=0.0030  FDR=1.00e+00
+  rMATS ID=46420  chr4:123262613-123262628 (-)  exon=15bp  dPSI=-0.0090  FDR=9.50e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=46421  chr4:123280341-123280350 (-)  exon=9bp  dPSI=-0.0100  FDR=1.00e+00
+
+VastDB: MmuEX0027469  |  Gene: Macf1  |  Paper length: 9bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=46419  chr4:123262613-123262625 (-)  exon=12bp  dPSI=0.0030  FDR=1.00e+00
+  rMATS ID=46421  chr4:123280341-123280350 (-)  exon=9bp  dPSI=-0.0100  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0027471  |  Gene: Macf1  |  Paper length: 18bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=46418  chr4:123257849-123257867 (-)  exon=18bp  dPSI=-0.0260  FDR=1.31e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=46420  chr4:123262613-123262628 (-)  exon=15bp  dPSI=-0.0090  FDR=9.50e-01
+
+VastDB: MmuEX0027855  |  Gene: Mapk8ip3  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=4422  chr17:25128123-25128135 (-)  exon=12bp  dPSI=-0.0040  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=4423  chr17:25128123-25128135 (-)  exon=12bp  dPSI=0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0027856  |  Gene: Mapk8ip3  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=4428  chr17:25139445-25139469 (-)  exon=24bp  dPSI=-0.0150  FDR=9.78e-01
+  rMATS ID=4429  chr17:25139445-25139469 (-)  exon=24bp  dPSI=0.0220  FDR=5.66e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0027951  |  Gene: Mark2  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=1720  chr19:7257350-7257377 (-)  exon=27bp  dPSI=0.1400  FDR=1.00e+00
+  rMATS ID=1721  chr19:7257350-7257377 (-)  exon=27bp  dPSI=-0.0410  FDR=1.16e-01
+  rMATS ID=1722  chr19:7257350-7257377 (-)  exon=27bp  dPSI=0.1740  FDR=7.99e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0028056  |  Gene: Max  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=22392  chr12:77008036-77008063 (-)  exon=27bp  dPSI=-0.0220  FDR=1.00e+00
+  rMATS ID=22393  chr12:77008036-77008063 (-)  exon=27bp  dPSI=0.0830  FDR=6.38e-03 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0028322  |  Gene: Mdm1  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=55347  chr10:117992738-117992768 (+)  exon=30bp  dPSI=-0.0070  FDR=1.00e+00
+  rMATS ID=55348  chr10:117992738-117992768 (+)  exon=30bp  dPSI=-0.0260  FDR=6.85e-02 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0028432  |  Gene: Meaf6  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=37076  chr4:125001309-125001339 (+)  exon=30bp  dPSI=-0.1030  FDR=2.02e-13
+  rMATS ID=37077  chr4:125001309-125001339 (+)  exon=30bp  dPSI=-0.1290  FDR=9.97e-04 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0028501  |  Gene: Med15  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 6
+  rMATS ID=23725  chr16:17501022-17501052 (-)  exon=30bp  dPSI=-0.0050  FDR=1.00e+00
+  rMATS ID=23726  chr16:17501022-17501052 (-)  exon=30bp  dPSI=-0.1820  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=23727  chr16:17501022-17501052 (-)  exon=30bp  dPSI=0.0080  FDR=1.00e+00
+  rMATS ID=23728  chr16:17501022-17501052 (-)  exon=30bp  dPSI=-0.0150  FDR=1.00e+00
+  rMATS ID=23729  chr16:17501022-17501052 (-)  exon=30bp  dPSI=-0.0010  FDR=1.00e+00
+  rMATS ID=23730  chr16:17501022-17501052 (-)  exon=30bp  dPSI=0.0340  FDR=2.74e-01
+
+VastDB: MmuEX0029001  |  Gene: Micu1  |  Paper length: 6bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=66498  chr10:59602905-59602911 (+)  exon=6bp  dPSI=0.0060  FDR=1.00e+00
+  rMATS ID=66499  chr10:59602905-59602911 (+)  exon=6bp  dPSI=-0.2030  FDR=4.00e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0029002  |  Gene: Micu1  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=66496  chr10:59592527-59592539 (+)  exon=12bp  dPSI=-0.3140  FDR=1.52e-01
+  rMATS ID=66497  chr10:59592527-59592539 (+)  exon=12bp  dPSI=-0.0140  FDR=1.37e-02 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0030346  |  Gene: Myh10  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=69725  chr11:68625213-68625241 (+)  exon=28bp  dPSI=-0.0040  FDR=1.00e+00
+  rMATS ID=69726  chr11:68636760-68636790 (+)  exon=30bp  dPSI=-0.0640  FDR=3.54e-08 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0030862  |  Gene: Nap1l4  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=55935  chr7:143075137-143075167 (-)  exon=30bp  dPSI=-0.0010  FDR=1.00e+00
+  rMATS ID=55936  chr7:143075137-143075167 (-)  exon=30bp  dPSI=-0.0020  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=55969  chr7:143095484-143095515 (-)  exon=31bp  dPSI=0.1140  FDR=2.50e-02
+  rMATS ID=55970  chr7:143095484-143095515 (-)  exon=31bp  dPSI=1.0000  FDR=1.00e+00
+  rMATS ID=55971  chr7:143095484-143095515 (-)  exon=31bp  dPSI=0.0000  FDR=1.00e+00
+
+VastDB: MmuEX0031042  |  Gene: Ncam1  |  Paper length: 15bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=38587  chr9:49453187-49453202 (-)  exon=15bp  dPSI=-0.0150  FDR=9.31e-03
+  rMATS ID=38588  chr9:49453187-49453202 (-)  exon=15bp  dPSI=-0.4450  FDR=2.88e-04 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0031809  |  Gene: Nktr  |  Paper length: 28bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=65639  chr9:121559062-121559090 (+)  exon=28bp  dPSI=-0.0510  FDR=1.01e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=65641  chr9:121567453-121567481 (+)  exon=28bp  dPSI=0.0260  FDR=8.59e-01
+  rMATS ID=65646  chr9:121581862-121581893 (+)  exon=31bp  dPSI=0.0080  FDR=1.00e+00
+
+VastDB: MmuEX0031815  |  Gene: Nktr  |  Paper length: 28bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=65639  chr9:121559062-121559090 (+)  exon=28bp  dPSI=-0.0510  FDR=1.01e-01
+  rMATS ID=65641  chr9:121567453-121567481 (+)  exon=28bp  dPSI=0.0260  FDR=8.59e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=65646  chr9:121581862-121581893 (+)  exon=31bp  dPSI=0.0080  FDR=1.00e+00
+
+VastDB: MmuEX0031816  |  Gene: Nktr  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=65639  chr9:121559062-121559090 (+)  exon=28bp  dPSI=-0.0510  FDR=1.01e-01
+  rMATS ID=65641  chr9:121567453-121567481 (+)  exon=28bp  dPSI=0.0260  FDR=8.59e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=65646  chr9:121581862-121581893 (+)  exon=31bp  dPSI=0.0080  FDR=1.00e+00
+
+VastDB: MmuEX0031965  |  Gene: Nol7  |  Paper length: 29bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=66919  chr13:43554068-43554097 (+)  exon=29bp  dPSI=0.0000  FDR=1.00e+00
+  rMATS ID=66920  chr13:43554068-43554097 (+)  exon=29bp  dPSI=-0.0010  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0032302  |  Gene: Nrbp1  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=47383  chr5:31403665-31403689 (+)  exon=24bp  dPSI=0.1060  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=47384  chr5:31403665-31403689 (+)  exon=24bp  dPSI=-0.0400  FDR=1.82e-01
+
+VastDB: MmuEX0033366  |  Gene: Oxr1  |  Paper length: 28bp  |  Match: gene_size  |  Candidates: 6
+  rMATS ID=22936  chr15:41701647-41701675 (+)  exon=28bp  dPSI=-0.0260  FDR=1.00e+00
+  rMATS ID=22937  chr15:41701647-41701675 (+)  exon=28bp  dPSI=0.0330  FDR=1.00e+00
+  rMATS ID=22938  chr15:41701647-41701675 (+)  exon=28bp  dPSI=-0.0970  FDR=7.79e-01
+  rMATS ID=22939  chr15:41701647-41701675 (+)  exon=28bp  dPSI=-0.0060  FDR=1.00e+00
+  rMATS ID=22940  chr15:41701647-41701675 (+)  exon=28bp  dPSI=-0.1560  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=22941  chr15:41701647-41701675 (+)  exon=28bp  dPSI=-0.0210  FDR=1.00e+00
+
+VastDB: MmuEX0034298  |  Gene: Pdlim7  |  Paper length: 17bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=10709  chr13:55655676-55655693 (-)  exon=17bp  dPSI=0.0180  FDR=3.34e-01
+  rMATS ID=10710  chr13:55655676-55655693 (-)  exon=17bp  dPSI=0.0060  FDR=1.00e+00
+  rMATS ID=10711  chr13:55655676-55655693 (-)  exon=17bp  dPSI=0.0780  FDR=9.55e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0034604  |  Gene: Pgap2  |  Paper length: 20bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=50104  chr7:101871988-101872008 (+)  exon=20bp  dPSI=-0.1260  FDR=1.06e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=50105  chr7:101871988-101872008 (+)  exon=20bp  dPSI=0.1260  FDR=1.00e+00
+
+VastDB: MmuEX0034605  |  Gene: Pgap2  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=50104  chr7:101871988-101872008 (+)  exon=20bp  dPSI=-0.1260  FDR=1.06e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=50105  chr7:101871988-101872008 (+)  exon=20bp  dPSI=0.1260  FDR=1.00e+00
+
+VastDB: MmuEX0035524  |  Gene: Pla2g6  |  Paper length: 29bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=25478  chr15:79187773-79187802 (-)  exon=29bp  dPSI=-0.1130  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=25479  chr15:79187773-79187802 (-)  exon=29bp  dPSI=-0.0490  FDR=1.00e+00
+
+VastDB: MmuEX0036499  |  Gene: Ppfia1  |  Paper length: 27bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=59042  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.0900  FDR=9.49e-01
+  rMATS ID=59043  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.0580  FDR=4.72e-02
+  rMATS ID=59044  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.3540  FDR=1.03e-04 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=59045  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.2420  FDR=1.97e-04
+  rMATS ID=59047  chr7:144056603-144056633 (-)  exon=30bp  dPSI=-0.0240  FDR=1.00e+00
+
+VastDB: MmuEX0036502  |  Gene: Ppfia1  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=59042  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.0900  FDR=9.49e-01
+  rMATS ID=59043  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.0580  FDR=4.72e-02
+  rMATS ID=59044  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.3540  FDR=1.03e-04
+  rMATS ID=59045  chr7:144042427-144042454 (-)  exon=27bp  dPSI=-0.2420  FDR=1.97e-04
+  rMATS ID=59047  chr7:144056603-144056633 (-)  exon=30bp  dPSI=-0.0240  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0036509  |  Gene: Ppfia2  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=67614  chr10:106740677-106740707 (+)  exon=30bp  dPSI=-0.0440  FDR=1.00e+00
+  rMATS ID=67615  chr10:106740681-106740707 (+)  exon=26bp  dPSI=-0.1100  FDR=3.84e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0036532  |  Gene: Ppfibp1  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=39484  chr6:146901159-146901192 (+)  exon=33bp  dPSI=0.0260  FDR=1.00e+00
+  rMATS ID=39486  chr6:146914415-146914445 (+)  exon=30bp  dPSI=0.0700  FDR=2.44e-06 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=39488  chr6:146918358-146918391 (+)  exon=33bp  dPSI=0.0420  FDR=1.33e-06
+
+VastDB: MmuEX0037342  |  Gene: Prpf40b  |  Paper length: 25bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=10465  chr15:99203046-99203074 (+)  exon=28bp  dPSI=-0.0260  FDR=4.05e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=10466  chr15:99203046-99203074 (+)  exon=28bp  dPSI=-0.0260  FDR=1.00e+00
+  rMATS ID=10467  chr15:99203288-99203314 (+)  exon=26bp  dPSI=-0.0170  FDR=1.00e+00
+  rMATS ID=10468  chr15:99203288-99203314 (+)  exon=26bp  dPSI=-0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0037345  |  Gene: Prpf40b  |  Paper length: 28bp  |  Match: gene_size_contained  |  Candidates: 4
+  rMATS ID=10465  chr15:99203046-99203074 (+)  exon=28bp  dPSI=-0.0260  FDR=4.05e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=10466  chr15:99203046-99203074 (+)  exon=28bp  dPSI=-0.0260  FDR=1.00e+00
+  rMATS ID=10467  chr15:99203288-99203314 (+)  exon=26bp  dPSI=-0.0170  FDR=1.00e+00
+  rMATS ID=10468  chr15:99203288-99203314 (+)  exon=26bp  dPSI=-0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0037450  |  Gene: Prss41  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=4572  chr17:24062930-24062957 (-)  exon=27bp  dPSI=0.6290  FDR=1.00e+00
+  rMATS ID=4573  chr17:24062930-24062957 (-)  exon=27bp  dPSI=0.6670  FDR=1.95e-02 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=4574  chr17:24062930-24062957 (-)  exon=27bp  dPSI=0.2260  FDR=1.57e-01
+
+VastDB: MmuEX0037737  |  Gene: Ptk2  |  Paper length: 21bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=7550  chr15:73147469-73147490 (-)  exon=21bp  dPSI=-0.0080  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=7551  chr15:73154066-73154084 (-)  exon=18bp  dPSI=-0.0220  FDR=1.00e+00
+
+VastDB: MmuEX0037746  |  Gene: Ptk2  |  Paper length: 18bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=7550  chr15:73147469-73147490 (-)  exon=21bp  dPSI=-0.0080  FDR=1.00e+00
+  rMATS ID=7551  chr15:73154066-73154084 (-)  exon=18bp  dPSI=-0.0220  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0038777  |  Gene: Rapgef2  |  Paper length: 24bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=48857  chr3:78989930-78989954 (-)  exon=24bp  dPSI=-0.0140  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=48863  chr3:79038004-79038023 (-)  exon=19bp  dPSI=0.0060  FDR=1.00e+00
+  rMATS ID=48864  chr3:79038004-79038023 (-)  exon=19bp  dPSI=0.0100  FDR=1.00e+00
+
+VastDB: MmuEX0040104  |  Gene: Rnf185  |  Paper length: 19bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=65084  chr11:3378883-3378902 (-)  exon=19bp  dPSI=-0.0000  FDR=1.00e+00
+  rMATS ID=65085  chr11:3378883-3378902 (-)  exon=19bp  dPSI=-0.0130  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0040597  |  Gene: Rrp1b  |  Paper length: 20bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=4026  chr17:32274078-32274098 (+)  exon=20bp  dPSI=-0.0410  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=4027  chr17:32274078-32274098 (+)  exon=20bp  dPSI=0.0000  FDR=1.00e+00
+
+VastDB: MmuEX0041679  |  Gene: Senp6  |  Paper length: 21bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=64463  chr9:80006167-80006188 (+)  exon=21bp  dPSI=-0.0120  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=64464  chr9:80006167-80006188 (+)  exon=21bp  dPSI=-0.0040  FDR=1.00e+00
+
+VastDB: MmuEX0041756  |  Gene: Serhl  |  Paper length: 20bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=7034  chr15:82986825-82986845 (+)  exon=20bp  dPSI=-0.0060  FDR=1.00e+00
+  rMATS ID=7035  chr15:82986825-82986845 (+)  exon=20bp  dPSI=0.0100  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0042005  |  Gene: Sfxn4  |  Paper length: 26bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=5242  chr19:60844264-60844290 (-)  exon=26bp  dPSI=0.0050  FDR=1.00e+00
+  rMATS ID=5243  chr19:60844264-60844290 (-)  exon=26bp  dPSI=-0.0070  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0042195  |  Gene: Sh3glb1  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=28916  chr3:144405614-144405638 (-)  exon=24bp  dPSI=-0.0000  FDR=1.00e+00
+  rMATS ID=28917  chr3:144405614-144405638 (-)  exon=24bp  dPSI=-0.0000  FDR=1.00e+00
+  rMATS ID=28918  chr3:144405614-144405638 (-)  exon=24bp  dPSI=-0.1280  FDR=3.70e-09 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0042199  |  Gene: Sh3glb2  |  Paper length: 15bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=69003  chr2:30236070-30236085 (-)  exon=15bp  dPSI=-0.0090  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=69008  chr2:30239237-30239249 (-)  exon=12bp  dPSI=-0.0060  FDR=1.00e+00
+  rMATS ID=69009  chr2:30239237-30239249 (-)  exon=12bp  dPSI=-0.1020  FDR=8.36e-05
+
+VastDB: MmuEX0042200  |  Gene: Sh3glb2  |  Paper length: 12bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=69003  chr2:30236070-30236085 (-)  exon=15bp  dPSI=-0.0090  FDR=1.00e+00
+  rMATS ID=69008  chr2:30239237-30239249 (-)  exon=12bp  dPSI=-0.0060  FDR=1.00e+00
+  rMATS ID=69009  chr2:30239237-30239249 (-)  exon=12bp  dPSI=-0.1020  FDR=8.36e-05 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0042251  |  Gene: Shank2  |  Paper length: 9bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=34887  chr7:143950374-143950383 (+)  exon=9bp  dPSI=-0.0620  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=34888  chr7:143950374-143950383 (+)  exon=9bp  dPSI=-0.0570  FDR=1.00e+00
+
+VastDB: MmuEX0043691  |  Gene: Slit2  |  Paper length: 24bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=34661  chr5:48378308-48378332 (+)  exon=24bp  dPSI=-0.2200  FDR=1.10e-03 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=34665  chr5:48420982-48421009 (+)  exon=27bp  dPSI=0.0460  FDR=1.00e+00
+
+VastDB: MmuEX0043693  |  Gene: Slit2  |  Paper length: 27bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=34661  chr5:48378308-48378332 (+)  exon=24bp  dPSI=-0.2200  FDR=1.10e-03
+  rMATS ID=34665  chr5:48420982-48421009 (+)  exon=27bp  dPSI=0.0460  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0044367  |  Gene: Sorbs1  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 5
+  rMATS ID=20682  chr19:40358133-40358163 (-)  exon=30bp  dPSI=-0.0010  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=20685  chr19:40365427-40365460 (-)  exon=33bp  dPSI=0.1550  FDR=1.00e+00
+  rMATS ID=20686  chr19:40365427-40365460 (-)  exon=33bp  dPSI=-0.0830  FDR=7.53e-01
+  rMATS ID=20687  chr19:40365427-40365460 (-)  exon=33bp  dPSI=0.0190  FDR=1.00e+00
+  rMATS ID=20690  chr19:40371199-40371226 (-)  exon=27bp  dPSI=-0.0780  FDR=1.76e-01
+
+VastDB: MmuEX0044374  |  Gene: Sorbs1  |  Paper length: 27bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=20682  chr19:40358133-40358163 (-)  exon=30bp  dPSI=-0.0010  FDR=1.00e+00
+  rMATS ID=20690  chr19:40371199-40371226 (-)  exon=27bp  dPSI=-0.0780  FDR=1.76e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0044507  |  Gene: Spag9  |  Paper length: 15bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=68267  chr11:93970024-93970036 (+)  exon=12bp  dPSI=-0.0040  FDR=1.00e+00
+  rMATS ID=68268  chr11:93970024-93970036 (+)  exon=12bp  dPSI=-0.0350  FDR=2.61e-01
+  rMATS ID=68269  chr11:93971565-93971580 (+)  exon=15bp  dPSI=-0.0750  FDR=4.08e-05 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=68270  chr11:93971565-93971580 (+)  exon=15bp  dPSI=-0.0920  FDR=9.47e-01
+
+VastDB: MmuEX0044508  |  Gene: Spag9  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=68267  chr11:93970024-93970036 (+)  exon=12bp  dPSI=-0.0040  FDR=1.00e+00
+  rMATS ID=68268  chr11:93970024-93970036 (+)  exon=12bp  dPSI=-0.0350  FDR=2.61e-01
+  rMATS ID=68269  chr11:93971565-93971580 (+)  exon=15bp  dPSI=-0.0750  FDR=4.08e-05 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=68270  chr11:93971565-93971580 (+)  exon=15bp  dPSI=-0.0920  FDR=9.47e-01
+
+VastDB: MmuEX0044509  |  Gene: Spag9  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=68267  chr11:93970024-93970036 (+)  exon=12bp  dPSI=-0.0040  FDR=1.00e+00
+  rMATS ID=68268  chr11:93970024-93970036 (+)  exon=12bp  dPSI=-0.0350  FDR=2.61e-01
+  rMATS ID=68269  chr11:93971565-93971580 (+)  exon=15bp  dPSI=-0.0750  FDR=4.08e-05 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=68270  chr11:93971565-93971580 (+)  exon=15bp  dPSI=-0.0920  FDR=9.47e-01
+
+VastDB: MmuEX0044624  |  Gene: Speg  |  Paper length: 30bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=37506  chr1:75360677-75360712 (+)  exon=35bp  dPSI=-0.0400  FDR=5.04e-02 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=37507  chr1:75360682-75360712 (+)  exon=30bp  dPSI=-0.0340  FDR=9.85e-02
+
+VastDB: MmuEX0044934  |  Gene: Srpk1  |  Paper length: 26bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=4195  chr17:28819842-28819868 (-)  exon=26bp  dPSI=-0.0060  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=4196  chr17:28819842-28819868 (-)  exon=26bp  dPSI=-0.0000  FDR=1.00e+00
+
+VastDB: MmuEX0045982  |  Gene: Synj1  |  Paper length: 24bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=35692  chr16:90737360-90737381 (-)  exon=21bp  dPSI=-0.0130  FDR=1.00e+00
+  rMATS ID=35693  chr16:90737360-90737384 (-)  exon=24bp  dPSI=-0.0460  FDR=1.33e-01
+  rMATS ID=35709  chr16:90768451-90768475 (-)  exon=24bp  dPSI=-0.0180  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0046693  |  Gene: Tcf7l2  |  Paper length: 25bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=10042  chr19:55916161-55916186 (+)  exon=25bp  dPSI=-0.1040  FDR=2.16e-01
+  rMATS ID=10043  chr19:55916161-55916186 (+)  exon=25bp  dPSI=-0.2300  FDR=1.45e-04
+  rMATS ID=10044  chr19:55916161-55916186 (+)  exon=25bp  dPSI=-0.2610  FDR=8.32e-05 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0046857  |  Gene: Tead1  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=21400  chr7:112455259-112455271 (+)  exon=12bp  dPSI=-0.0050  FDR=1.00e+00
+  rMATS ID=21401  chr7:112455259-112455271 (+)  exon=12bp  dPSI=0.0100  FDR=8.20e-01 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0048384  |  Gene: Tnrc6a  |  Paper length: 22bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=30897  chr7:122751386-122751408 (+)  exon=22bp  dPSI=-0.0040  FDR=1.00e+00
+  rMATS ID=30899  chr7:122751386-122751408 (+)  exon=22bp  dPSI=0.0460  FDR=8.43e-01
+  rMATS ID=30900  chr7:122751386-122751408 (+)  exon=22bp  dPSI=-0.7670  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=30901  chr7:122751386-122751408 (+)  exon=22bp  dPSI=0.0120  FDR=1.12e-01
+
+VastDB: MmuEX0048571  |  Gene: Tpd52  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=34781  chr3:9008610-9008637 (-)  exon=27bp  dPSI=-0.1670  FDR=4.35e-07 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=34782  chr3:9008610-9008637 (-)  exon=27bp  dPSI=-0.0150  FDR=5.72e-01
+
+VastDB: MmuEX0049240  |  Gene: Trrap  |  Paper length: 21bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=31274  chr5:144747141-144747162 (+)  exon=21bp  dPSI=-0.0400  FDR=5.96e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=31275  chr5:144747141-144747162 (+)  exon=21bp  dPSI=-0.0030  FDR=1.00e+00
+
+VastDB: MmuEX0050127  |  Gene: Ube2b  |  Paper length: 26bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=69112  chr11:51886200-51886226 (-)  exon=26bp  dPSI=-0.0000  FDR=1.00e+00
+  rMATS ID=69113  chr11:51886200-51886226 (-)  exon=26bp  dPSI=-0.0020  FDR=1.00e+00
+  rMATS ID=69114  chr11:51886200-51886226 (-)  exon=26bp  dPSI=0.5000  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=69115  chr11:51886200-51886226 (-)  exon=26bp  dPSI=-0.0000  FDR=1.00e+00
+
+VastDB: MmuEX0050589  |  Gene: Unc13a  |  Paper length: 6bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=59264  chr8:72091860-72091866 (-)  exon=6bp  dPSI=-0.0260  FDR=3.21e-04 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=59265  chr8:72091860-72091866 (-)  exon=6bp  dPSI=0.0220  FDR=1.00e+00
+  rMATS ID=59268  chr8:72108146-72108152 (-)  exon=6bp  dPSI=-0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0050593  |  Gene: Unc13a  |  Paper length: 30bp  |  Match: gene_size_contained  |  Candidates: 3
+  rMATS ID=59261  chr8:72089181-72089211 (-)  exon=30bp  dPSI=-0.0040  FDR=1.00e+00
+  rMATS ID=59273  chr8:72114462-72114495 (-)  exon=33bp  dPSI=-0.0010  FDR=1.00e+00
+  rMATS ID=59277  chr8:72119284-72119314 (-)  exon=30bp  dPSI=0.1480  FDR=5.14e-07 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0051211  |  Gene: Uxs1  |  Paper length: 28bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=29121  chr1:43846509-43846537 (-)  exon=28bp  dPSI=-0.0010  FDR=1.00e+00
+  rMATS ID=29122  chr1:43846509-43846537 (-)  exon=28bp  dPSI=-0.0010  FDR=1.00e+00
+  rMATS ID=29123  chr1:43846509-43846537 (-)  exon=28bp  dPSI=-0.0020  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0051281  |  Gene: Vav2  |  Paper length: 15bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=36740  chr2:27174850-27174865 (-)  exon=15bp  dPSI=-0.0420  FDR=5.74e-01
+  rMATS ID=36742  chr2:27190441-27190456 (-)  exon=15bp  dPSI=-0.0720  FDR=7.03e-03 << SELECTED (significant, strongest |dPSI|)
+
+VastDB: MmuEX0051282  |  Gene: Vav2  |  Paper length: 15bp  |  Match: gene_size_contained  |  Candidates: 2
+  rMATS ID=36740  chr2:27174850-27174865 (-)  exon=15bp  dPSI=-0.0420  FDR=5.74e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=36742  chr2:27190441-27190456 (-)  exon=15bp  dPSI=-0.0720  FDR=7.03e-03
+
+VastDB: MmuEX0051510  |  Gene: Vps29  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 4
+  rMATS ID=56149  chr5:122494856-122494868 (+)  exon=12bp  dPSI=-0.6760  FDR=1.00e+00
+  rMATS ID=56150  chr5:122494856-122494868 (+)  exon=12bp  dPSI=-0.6670  FDR=1.00e+00
+  rMATS ID=56151  chr5:122494856-122494868 (+)  exon=12bp  dPSI=-0.0840  FDR=2.17e-03 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=56152  chr5:122494856-122494868 (+)  exon=12bp  dPSI=-0.0040  FDR=1.00e+00
+
+VastDB: MmuEX0051652  |  Gene: Vti1a  |  Paper length: 21bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=15820  chr19:55375620-55375641 (+)  exon=21bp  dPSI=0.1330  FDR=2.86e-02 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=15821  chr19:55375620-55375641 (+)  exon=21bp  dPSI=0.0220  FDR=1.00e+00
+  rMATS ID=15822  chr19:55375620-55375641 (+)  exon=21bp  dPSI=0.1250  FDR=1.00e+00
+
+VastDB: MmuEX0052215  |  Gene: Wnk1  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=47494  chr6:119905083-119905110 (-)  exon=27bp  dPSI=-0.1240  FDR=2.04e-04 << SELECTED (significant, strongest |dPSI|)
+  rMATS ID=47495  chr6:119905083-119905110 (-)  exon=27bp  dPSI=-0.2300  FDR=3.23e-01
+  rMATS ID=47496  chr6:119905083-119905110 (-)  exon=27bp  dPSI=-0.0500  FDR=1.06e-07
+
+VastDB: MmuEX0052595  |  Gene: Ythdf3  |  Paper length: 25bp  |  Match: gene_size  |  Candidates: 3
+  rMATS ID=47788  chr3:16238085-16238110 (+)  exon=25bp  dPSI=-0.0230  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=47789  chr3:16238085-16238110 (+)  exon=25bp  dPSI=-0.0010  FDR=1.00e+00
+  rMATS ID=47790  chr3:16238085-16238110 (+)  exon=25bp  dPSI=0.0110  FDR=8.86e-01
+
+VastDB: MmuEX0052888  |  Gene: Zdhhc15  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=525  chrX:103676189-103676216 (-)  exon=27bp  dPSI=0.0520  FDR=8.50e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=526  chrX:103676189-103676216 (-)  exon=27bp  dPSI=-0.0010  FDR=1.00e+00
+
+VastDB: MmuEX0052911  |  Gene: Zdhhc2  |  Paper length: 27bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=60022  chr8:40898818-40898845 (+)  exon=27bp  dPSI=0.0000  FDR=1.00e+00
+  rMATS ID=60023  chr8:40898818-40898845 (+)  exon=27bp  dPSI=0.0050  FDR=1.00e+00 << SELECTED (none significant, strongest |dPSI|)
+
+VastDB: MmuEX0053758  |  Gene: Zfr  |  Paper length: 24bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=56481  chr15:12135352-12135376 (+)  exon=24bp  dPSI=0.0240  FDR=7.77e-01 << SELECTED (none significant, strongest |dPSI|)
+  rMATS ID=56482  chr15:12135352-12135376 (+)  exon=24bp  dPSI=0.0070  FDR=2.17e-01
+
+VastDB: MmuEX0053985  |  Gene: Zmynd8  |  Paper length: 12bp  |  Match: gene_size  |  Candidates: 2
+  rMATS ID=25200  chr2:165694787-165694799 (-)  exon=12bp  dPSI=-0.0120  FDR=1.00e+00
+  rMATS ID=25201  chr2:165694787-165694799 (-)  exon=12bp  dPSI=-0.1030  FDR=1.21e-03 << SELECTED (significant, strongest |dPSI|)
+
+================================================================================

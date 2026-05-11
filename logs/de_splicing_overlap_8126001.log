@@ -1,0 +1,111 @@
+============================================
+DE + Splicing Overlap Enrichment Analysis
+Job ID: 8126001
+Start time: Wed Feb  4 07:58:09 PM CET 2026
+============================================
+
+Checking R packages...
+All required packages are available
+
+Running enrichment analysis...
+============================================
+DE + Splicing Overlap Enrichment Analysis
+Start time: 2026-02-04 19:58:30 
+============================================
+
+
+=== Processing: Neg_vs_Parental ===
+  Loaded 7651 significant DE genes
+  Loaded 1870 splicing events from 1330 unique genes
+  Generating Venn diagram...
+  Identifying overlap genes...
+  Found 733 overlap genes
+  Running GO enrichment...
+'select()' returned 1:many mapping between keys and columns
+    Mapped 722 of 733 genes to Entrez IDs
+    GO BP: 420 significant terms
+    GO MF: 57 significant terms
+    GO CC: 120 significant terms
+  Running GSEA (ranked by log2FC)...
+'select()' returned 1:many mapping between keys and columns
+    722 genes for GSEA
+no term enriched under specific pvalueCutoff...
+    GSEA: No significant terms found
+
+=== Processing: Pos_vs_Parental ===
+  Loaded 8124 significant DE genes
+  Loaded 2792 splicing events from 1818 unique genes
+  Generating Venn diagram...
+  Identifying overlap genes...
+  Found 1065 overlap genes
+  Running GO enrichment...
+'select()' returned 1:many mapping between keys and columns
+    Mapped 1047 of 1065 genes to Entrez IDs
+    GO BP: 435 significant terms
+    GO MF: 89 significant terms
+    GO CC: 135 significant terms
+  Running GSEA (ranked by log2FC)...
+'select()' returned 1:many mapping between keys and columns
+    1047 genes for GSEA
+    GSEA: 1 significant terms
+
+=== Processing: KO_vs_Parental ===
+  Loaded 9044 significant DE genes
+  Loaded 1750 splicing events from 1253 unique genes
+  Generating Venn diagram...
+  Identifying overlap genes...
+  Found 782 overlap genes
+  Running GO enrichment...
+'select()' returned 1:many mapping between keys and columns
+    Mapped 769 of 782 genes to Entrez IDs
+    GO BP: 358 significant terms
+    GO MF: 49 significant terms
+    GO CC: 108 significant terms
+  Running GSEA (ranked by log2FC)...
+'select()' returned 1:many mapping between keys and columns
+    769 genes for GSEA
+no term enriched under specific pvalueCutoff...
+    GSEA: No significant terms found
+Warning messages:
+1: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.
+ℹ The deprecated feature was likely used in the ggtangle package.
+  Please report the issue to the authors. 
+2: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+3: In fgseaMultilevel(pathways = pathways, stats = stats, minSize = minSize,  :
+  For some of the pathways the P-values were likely overestimated. For such pathways log2err is set to NA.
+
+=== Generating Summary ===
+
+============================================
+DE + Splicing Overlap Enrichment Complete!
+============================================
+
+Summary by Comparison:
+       Comparison DE_genes Splicing_genes Overlap_genes Overlap_percent_DE
+1 Neg_vs_Parental     7651           1330           733                9.6
+2 Pos_vs_Parental     8124           1818          1065               13.1
+3  KO_vs_Parental     9044           1253           782                8.6
+  Overlap_percent_splicing GO_BP_terms GO_MF_terms GO_CC_terms GSEA_terms
+1                     55.1         420          57         120          0
+2                     58.6         435          89         135          1
+3                     62.4         358          49         108          0
+
+
+Output directory: /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/13_de_splicing_overlap_enrichment 
+
+Generated outputs:
+  - gene_lists/: Overlap, DE-only, and splicing-only gene lists
+  - overlap_GO/: GO enrichment (BP, MF, CC) for overlap genes
+  - overlap_GSEA/: GSEA ranked by log2FoldChange
+  - comparison_plots/: Venn diagrams and summary plots
+
+End time: 2026-02-04 20:03:44 
+============================================
+
+============================================
+Analysis completed successfully!
+Results in: results/13_de_splicing_overlap_enrichment/
+End time: Wed Feb  4 08:03:45 PM CET 2026
+============================================

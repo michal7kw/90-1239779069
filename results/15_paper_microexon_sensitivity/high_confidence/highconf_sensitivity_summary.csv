@@ -1,0 +1,12 @@
+"paper_TIER","Comparison","n_detected","n_gene_length","n_gene_only","mean_dPSI","median_dPSI","mean_abs_dPSI","pct_negative_dPSI","tier_total","detection_rate_pct"
+"CR","Pos_vs_Parental",1,1,0,-0.162,-0.162,0.162,100,30,3.3
+"CS","Neg_vs_Parental",1,1,0,0.169,0.169,0.169,0,27,3.7
+"HS","KO_vs_Parental",13,13,0,-0.100923076923077,-0.123,0.140153846153846,84.6153846153846,73,17.8
+"HS","Neg_vs_Parental",20,20,0,0.18055,0.169,0.18055,0,73,27.4
+"HS","Pos_vs_Parental",21,21,0,-0.082952380952381,-0.122,0.143809523809524,85.7142857142857,73,28.8
+"LS","KO_vs_Parental",13,13,0,-0.169692307692308,-0.151,0.169692307692308,100,71,18.3
+"LS","Neg_vs_Parental",21,21,0,0.19,0.176,0.19,0,71,29.6
+"LS","Pos_vs_Parental",9,9,0,-0.0838888888888889,-0.137,0.175444444444444,66.6666666666667,71,12.7
+"NonResponding","KO_vs_Parental",1,1,0,-0.118,-0.118,0.118,100,29,3.4
+"NonResponding","Neg_vs_Parental",1,1,0,-0.191,-0.191,0.191,100,29,3.4
+"NonResponding","Pos_vs_Parental",3,3,0,-0.234,-0.253,0.234,100,29,10.3

@@ -1,0 +1,4 @@
+"Comparison","DE_genes","Splicing_genes","Overlap_genes","Overlap_percent_DE","Overlap_percent_splicing","GO_BP_terms","GO_MF_terms","GO_CC_terms","GSEA_terms"
+"Neg_vs_Parental",7651,1330,733,9.6,55.1,420,57,120,0
+"Pos_vs_Parental",8124,1818,1065,13.1,58.6,435,89,135,1
+"KO_vs_Parental",9044,1253,782,8.6,62.4,358,49,108,0

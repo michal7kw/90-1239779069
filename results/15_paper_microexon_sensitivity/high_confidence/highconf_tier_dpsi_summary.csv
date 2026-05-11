@@ -1,0 +1,12 @@
+"paper_TIER","Comparison","n","mean_dPSI","median_dPSI","sd_dPSI","min_dPSI","max_dPSI"
+"CR","Pos_vs_Parental",1,-0.162,-0.162,NA,-0.162,-0.162
+"CS","Neg_vs_Parental",1,0.169,0.169,NA,0.169,0.169
+"HS","KO_vs_Parental",13,-0.1009,-0.123,0.1088,-0.241,0.133
+"HS","Neg_vs_Parental",20,0.1805,0.169,0.0562,0.1,0.293
+"HS","Pos_vs_Parental",21,-0.083,-0.122,0.1295,-0.216,0.3
+"LS","KO_vs_Parental",13,-0.1697,-0.151,0.0706,-0.354,-0.102
+"LS","Neg_vs_Parental",21,0.19,0.176,0.0704,0.106,0.323
+"LS","Pos_vs_Parental",9,-0.0839,-0.137,0.1732,-0.272,0.186
+"NonResponding","KO_vs_Parental",1,-0.118,-0.118,NA,-0.118,-0.118
+"NonResponding","Neg_vs_Parental",1,-0.191,-0.191,NA,-0.191,-0.191
+"NonResponding","Pos_vs_Parental",3,-0.234,-0.253,0.1137,-0.337,-0.112

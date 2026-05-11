@@ -1,0 +1,4 @@
+"comparison1","comparison2","total_common","same_direction","opposite_direction","pct_concordant"
+"Neg_vs_Parental","KO_vs_Parental",899,738,161,82.1
+"Neg_vs_Parental","Pos_vs_Parental",1725,1608,117,93.2
+"KO_vs_Parental","Pos_vs_Parental",1552,1390,162,89.6

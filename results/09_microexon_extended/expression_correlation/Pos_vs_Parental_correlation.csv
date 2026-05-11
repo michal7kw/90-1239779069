@@ -1,0 +1,4 @@
+"comparison","size_category","n_events","n_sig_both","n_sig_splicing_only","n_sig_expression_only","n_neither_sig","pearson_r","spearman_rho","pearson_p","spearman_p"
+"Pos_vs_Parental","Microexon (0-30bp)",1083,1,97,5,980,0.0273031997577309,0.0317966390619866,0.369372295621114,0.295814832923323
+"Pos_vs_Parental","Small (30-50bp)",3066,1,121,17,2927,0.0290206949965827,0.0253808513843692,0.10814176345484,0.160012841959255
+"Pos_vs_Parental","Regular (>50bp)",51553,30,1315,495,49713,0.0227358705788342,0.0061805032979777,2.43300589911171e-07,0.160533267891584

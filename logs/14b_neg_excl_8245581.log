@@ -1,0 +1,54 @@
+============================================
+14b: Neg-Exclusive Microexon Gene Extraction
+Job ID: 8245581
+Start time: Wed Feb 11 10:54:34 AM CET 2026
+============================================
+========================================
+14b: Neg-Exclusive Microexon Gene Extraction
+========================================
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...14`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...14`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+  Neg significant: 1612 events
+  Pos significant: 2500 events
+  Significant SE microexons: Neg=110, Pos=98
+  Neg-exclusive microexon events: 89
+  Unique genes with neg-exclusive microexons: 81
+
+  Output files:
+    /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task2_neg_exclusive_microexon/neg_exclusive_microexon_events.csv (89 events)
+    /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task2_neg_exclusive_microexon/neg_exclusive_microexon_genes.csv (81 genes)
+    /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task2_neg_exclusive_microexon/neg_exclusive_gene_ids.txt (81 gene IDs)
+    /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/results/14_todo_analysis/task2_neg_exclusive_microexon/neg_all_events_for_genes.csv (1269 events)
+
+14b complete.
+
+Results in: results/14_todo_analysis/task2_neg_exclusive_microexon/
+End time: Wed Feb 11 10:54:49 AM CET 2026

@@ -1,0 +1,58 @@
+============================================
+14a: Venn Diagrams — Splicing Event Overlap
+Job ID: 8245580
+Start time: Wed Feb 11 10:54:34 AM CET 2026
+============================================
+========================================
+14a: Venn Diagrams — Splicing Event Overlap
+========================================
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...14`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...14`
+New names:
+• `ID` -> `ID...1`
+• `ID` -> `ID...12`
+  Neg_vs_Parental: 73729 events loaded, 1612 significant
+  Pos_vs_Parental: 76995 events loaded, 2500 significant
+  Microexon (0-30bp): Neg-only=96, Pos-only=85, Both=21
+  Small (30-50bp): Neg-only=87, Pos-only=108, Both=46
+  Regular (>50bp): Neg-only=729, Pos-only=1607, Both=633
+  All Events: Neg-only=912, Pos-only=1800, Both=700
+
+  Overlap summary:
+                size neg_only pos_only both total_neg total_pos jaccard
+1 Microexon (0-30bp)       96       85   21       117       106   0.104
+2    Small (30-50bp)       87      108   46       133       154   0.191
+3    Regular (>50bp)      729     1607  633      1362      2240   0.213
+4         All Events      912     1800  700      1612      2500   0.205
+null device 
+          1 
+
+14a complete.
+
+Results in: results/14_todo_analysis/task1_venn_diagrams/
+End time: Wed Feb 11 10:54:53 AM CET 2026

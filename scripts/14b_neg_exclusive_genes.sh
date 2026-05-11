@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --job-name=14b_neg_excl
+#SBATCH --account=kubacki.michal
+#SBATCH --output=/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/logs/14b_neg_excl_%j.log
+#SBATCH --error=/beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069/logs/14b_neg_excl_%j.log
+#SBATCH --time=01:00:00
+#SBATCH --mem=16G
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=workq
+
+echo "============================================"
+echo "14b: Neg-Exclusive Microexon Gene Extraction"
+echo "Job ID: ${SLURM_JOB_ID}"
+echo "Start time: $(date)"
+echo "============================================"
+
+source /beegfs/scratch/ric.broccoli/kubacki.michal/conda/etc/profile.d/conda.sh
+conda activate rna_seq_analysis
+
+cd /beegfs/scratch/ric.sessa/kubacki.michal/SRF_Elisa_top/90-1239779069
+mkdir -p logs
+
+Rscript scripts/14b_neg_exclusive_genes.R
+
+if [ $? -eq 0 ]; then
+    echo ""
+    echo "Results in: results/14_todo_analysis/task2_neg_exclusive_microexon/"
+    echo "End time: $(date)"
+else
+    echo "ERROR: 14b failed!"
+    exit 1
+fi

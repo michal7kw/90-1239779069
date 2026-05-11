@@ -1,0 +1,10 @@
+"comparison","genomic_position","protein_coding","lncRNA"
+"KO_vs_Parental","CDS",60,0
+"KO_vs_Parental","UTR",4,0
+"KO_vs_Parental","Unknown",4,1
+"Neg_vs_Parental","CDS",106,0
+"Neg_vs_Parental","UTR",3,0
+"Neg_vs_Parental","Unknown",1,0
+"Pos_vs_Parental","CDS",94,0
+"Pos_vs_Parental","UTR",2,0
+"Pos_vs_Parental","Unknown",2,0

@@ -1,0 +1,5 @@
+"size","neg_only","pos_only","both","total_neg","total_pos","jaccard"
+"Microexon (0-30bp)",96,85,21,117,106,0.104
+"Small (30-50bp)",87,108,46,133,154,0.191
+"Regular (>50bp)",729,1607,633,1362,2240,0.213
+"All Events",912,1800,700,1612,2500,0.205

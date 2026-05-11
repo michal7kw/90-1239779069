@@ -1,0 +1,16 @@
+"comparison","size_category","gene_biotype_simple","n_events","n_genes","mean_dPSI"
+"KO_vs_Parental","Microexon (0-30bp)","lncRNA",1,1,-0.202
+"KO_vs_Parental","Microexon (0-30bp)","protein_coding",68,64,-0.093
+"KO_vs_Parental","Small (30-50bp)","protein_coding",64,57,-0.02496875
+"KO_vs_Parental","Regular (>50bp)","lncRNA",88,57,-0.0422045454545455
+"KO_vs_Parental","Regular (>50bp)","protein_coding",787,624,-0.0446124523506989
+"Neg_vs_Parental","Microexon (0-30bp)","protein_coding",110,99,0.144945454545455
+"Neg_vs_Parental","Small (30-50bp)","lncRNA",4,4,0.096
+"Neg_vs_Parental","Small (30-50bp)","protein_coding",115,98,0.0845826086956522
+"Neg_vs_Parental","Regular (>50bp)","lncRNA",82,48,0.00724390243902439
+"Neg_vs_Parental","Regular (>50bp)","protein_coding",723,577,0.000865836791147994
+"Pos_vs_Parental","Microexon (0-30bp)","protein_coding",98,91,-0.0838571428571429
+"Pos_vs_Parental","Small (30-50bp)","lncRNA",4,4,0.005
+"Pos_vs_Parental","Small (30-50bp)","protein_coding",118,107,-0.0093728813559322
+"Pos_vs_Parental","Regular (>50bp)","lncRNA",129,66,-0.0495503875968992
+"Pos_vs_Parental","Regular (>50bp)","protein_coding",1217,911,-0.0499186524239934
